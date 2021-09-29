@@ -1,0 +1,16 @@
+# Variables, Expressions, and Statements
+
+'''
+Constants
+    Numeric constants
+    String contants
+
+Variables
+    Case sensitive
+    mnemonic - best practice/"memory aid"
+    short and convenient or/and mnemonic
+
+Assignment statements
+    Calculations first
+    And then, the assignments
+'''

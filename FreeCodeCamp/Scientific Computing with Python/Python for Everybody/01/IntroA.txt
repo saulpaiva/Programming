@@ -1,0 +1,9 @@
+Why Program?
+
+- Book
+    Python for everybody: Exploring data in python 3
+
+- Materials
+    https://www.py4e.com
+
+

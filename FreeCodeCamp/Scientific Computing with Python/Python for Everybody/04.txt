@@ -1,0 +1,10 @@
+# Conditional Execution
+
+
+if (...) :
+    "ident" (tab = 4 spaces)
+else :
+    "bla bla bla"
+
+!= not equal (different)
+

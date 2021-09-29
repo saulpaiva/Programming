@@ -1,0 +1,5 @@
+Python as a Language
+
+- Developed initially by Guido van Rossum
+
+- Easy to learn and powerful

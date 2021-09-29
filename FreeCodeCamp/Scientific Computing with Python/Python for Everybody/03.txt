@@ -1,0 +1,22 @@
+# Intermediate Expressions
+
+"""
+Operator    Operation
++   addition
+-   subtraction
+*   multiplication
+/   division
+**  power
+%   remainder (modular op.)
+"""
+
+"""
+Order of precedence:
+parenthesis
+power
+multiplication/division
+addition
+left to right
+"""
+
+# divisions always gives a float output
