@@ -1,0 +1,236 @@
+@ MUNDO 1
+
+AULA 01 - Seja um Programador
+
+    Por que ser Programador?
+        A humanidade está precisando de pessoas que saibam Programador
+
+    site: code.org
+
+    Daqui a 10 anos precisaremos de cerca de 1.4 milhão de vagas de programadores
+    e teremos cerca de apenas 400 mil programadores
+
+    Exemplos:
+        Termostato [Google]
+        Carros auto-guiados (Self-drive car) [Google]
+
+    "Todos nesse país deveriam aprender a programar, pois isso nos ensina a pensar" [Steve Jobs]
+
+    Vantagens:
+        Resolver problemas mais rápido
+        Mais criativo
+        Espírito de Comunidade (compartilhamento)
+        Aprenda as coisas mais rápido
+        Inglês e Matemática os mesmos do dia-a-dia
+
+    Maiores obstáculos:
+        Falta de compromisso
+        Excesso de pressa
+        Poucos exercícios práticos
+        Não valorizar a base
+        Achar que já sabe tudo
+
+    Programar é difícil?
+        Não, mas também não é facil
+        Programar não é facil, mas não pode ter pressa
+        Não é tão diferente quanto aprender um instrumento novo
+
+    Principais profissionais programadores:
+        Desktop
+        Web
+        Mobile
+        IoT (sistemas embarcados)
+        Games
+
+    Um novo "idioma"
+        O idioma nosso não é o mesmo do computador
+        Quem "traduz" isso para uma linguagem do comp são os programadores
+        Ex: Java, C++, PHP, Python, Ruby, Swift, Asp, JS
+
+
+AULA 02 - Para que serve o Python?
+
+    De onde vem o Python?
+
+        1982 - Amsterdam, Holanda
+        Linguagem ABC - Guido Van Hossum
+
+        CWI
+        Programa de Tv - Monty Python Flying Circus
+        Livros da O' Relly
+
+        EUA - 1995
+        CP4E - Computer programming for everybody [Darpa]
+
+        PSF - 2001 (Python software foundation)
+        Financiadores:
+            Microsoft
+            Google
+            Globo.com
+
+        RaspiberryPi (educacional)
+
+        2005 - Guido on Google
+        2013 - Guido on Dropbox
+
+    O Python é:
+
+        Linguagem de propósito geral
+
+        Facil e intuitivo
+
+        Multiplataforma
+
+        Batteries included
+
+        Livre (código aberto)
+
+        Organizada
+
+        Orientada a objetos
+        
+        Muitas bibliotecas
+
+    Zen of Python (Tim Peters):
+
+        Bonito é melhor que feio
+        Simples é melhor que complexo
+        Legibilidade conta
+        Erros nunca devem passar silenciosamente
+        Agora é melhor que nunca
+
+    Principais áreas:
+
+        Inteligência Artificial
+        Biuotecnologia
+        Computação 3D
+
+    Quem usa Python?
+
+        Zope
+        Air Canada
+        bitTorrent
+        Globo
+        Google (cradles)
+        YouTube
+        NASA
+        Industrial Light & Magic
+        AutoDesk
+        Blender
+        Gimp
+        RaspiberryPi
+        Arduino
+
+        Games:
+            Frets on Fire
+            Eve Online
+            Civilization IV
+            Battle Field 2
+
+
+AULA 03 - Instalando o Python3 e o IDLE
+
+    Como o Python funciona?
+        Intrérprete: Conversão de idiomas
+        Linguagem humana X Linguagem de máquina (binários)
+        Interpretador: Linguagens de programação
+
+    Windows:
+        Não vem pré-instalado
+        Ir para o site: https://www.python.org/
+        Downloads -> Windows -> última versão compatível (Windows x86-64 executable installer)
+        Instalar no instalador (clicar 2 vezes no arquivo baixado)
+        Teclar Win + R , digitar cmd para abrir o prompt de comando
+        Digitar python no prompt e teclar Enter
+        Iniciar -> python IDLE
+
+
+    Linux:
+        Vem pré-instalado alguma versão
+        Ir para o terminal
+        sudo apt-get install python3.8
+        se preciso: sudo apt-get install "python Idle"
+
+    MacOS:
+        Vem pré-instalado alguma versão
+        Ir para o site: https://www.python.org/
+        Downloads -> MacOS -> última versão compatível
+        Instalar no instalador
+
+
+    Comandos no python:
+        import this (Zen of Python, by Tim Peters)
+        print('escreva alguma coisa aqui')
+
+
+AULA 04 - Primeiros comandos em Python3
+
+    Delimitadores de mensagens: 'aspas simples ou duplas'
+    toda função/comando deve estar contido em parênteses (comando)
+    print() função que 'escreve' na tela
+    vírgula separa tipos diferentes na mesma mensagem
+    ex: print('Olá' , 5)
+
+    Em python toda variável é um objeto
+    Uma variável recebe "=" algo
+    input('mensagem?') escreve a mensagem e recebe o que o usuário digitar
+
+    Abrir no IDLE File -> New File
+    Escrever os comandos e instruções
+    Salvar o script em uma pasta e dar um nome
+    Dar "Run -> Run Module" ou apertar a tecla F5
+
+    Desafio 01:
+
+        Crie um script Python que leia o nome de uma pessoa
+        e mostra uma mensagem de boas-vindas 
+        de acordo com o valor digitado.
+
+    Desafio 02:
+
+        Crie um script Python que leia o dia,
+        o mês e o ano de nascimento de uma pessoa 
+        e mostra uma mensagem com a data formatada.
+
+    desafio 03:
+
+    Crie um script Python que leia dois números
+    e tente mostrar a soma entre eles.
+
+
+AULA 05 - Instalando o PyCharm e o QPython3
+
+PyCharm (Communit):
+    IDE - Integrated Development Enviroment
+    https://www.jetbrains.com/pycharm/
+    Importante ter também Python3 instalado
+    
+    Linux:
+        Download, save file, copy to home directory
+        Open terminal, cd pycharm..../, cd bin, ./pycharm.sh, enter
+
+QPython3:
+    On Android (Google play store)
+
+
+AULA 06 - Tipos Primitivos e saída de Dados
+
+    Tipos primitivos:
+        int() - converte para valor inteiro
+        float() - converte para valor real
+        bool() - converte para boolean [True/False]
+        str() - converte para string["/']
+
+    Comentário de uma linha: #
+    Atalho para comentário: Ctrl + /
+
+    print('A soma entre {0} e {1} vale {2}'.format(n1, n2, s))
+
+    var.isnumeric() - verifica se a variável é um valor inteiro
+    var.isalpha() - verifica se a variável é uma string
+    var.isalnum() - verifica se a variável é alfanumérico
+    var.isupper() - verifica se a variável esta em maiúsculo
+
+    Desafio 04:
+        Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informações possíveis sobre ela
+

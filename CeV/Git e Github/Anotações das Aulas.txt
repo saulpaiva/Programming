@@ -1,0 +1,187 @@
+AULA 01 - Oque é Git
+
+    Git != GitHub
+
+    - Git:
+
+    Software de versionamento
+
+    Histórico de versões
+
+    VCS (software de controle de versão)
+
+    Commit (manda pra um repósitório central/local)
+
+    servidor é capaz de ver/rastrear modificações
+
+    modelos de versionamento (máquina do tempo): 
+
+        Centralizado/linear (repo central)
+            - CA Softwqre Change Manager (CCC)
+            - Sourse code control system (SCCS)
+            Panvalet
+            - Concurrent Version System (CVS)
+            - Apache Subversion (SVN)
+            ClearCase
+            Visual SourceSafe
+            Perforce
+
+        Distribuído (repo local)[commit] -> repo remoto[push]
+            Mercurial
+            Bazaar
+            Code Co-op
+            GNU arch
+            Monotone
+            Fossil
+            - BitKeeper
+            - Git
+
+    Vantagens em usar VCS:
+        Controle de histórico
+        Trabalho em equipe
+        Ramificação do projeto (Branchs)
+        Segurança
+        Organização
+
+
+AULA 02 - O que é GitHub
+
+    - GitHub:
+
+    Rede social dos devs
+
+    Commit (salva a diff em um repo local [git])
+
+    É um repositório remoto (em forma de site)
+
+    Plataforma social para programadores
+
+    Contribuições em comunidade
+
+    Repos públicos e particulares
+
+    Hospedagem de sites (simples e educacionais)
+
+    Lugar aberto para vagas de emprego
+
+    Repos ilimitados
+
+    Repo privado: max 3 contrib
+
+    Repo público: contrib ilimitados
+
+    Hospedagem de código-fonte
+
+    Características de rede social
+
+    GitHub Pages integrado (hospedagem de sites simples)
+
+    Colaboração
+
+    Forks: seguindo as licensas
+
+    - Outros repo remotos que suportam Git
+
+        GitLab
+        Bitbucket
+        Phabricator
+        Gogs
+        Kallithea
+
+    GitHub do Gustavo Guanabara: https://github.com/gustavoguanabara/git-github.git
+
+
+AULA 03 - A Evolução do Git e GitHub
+
+    1985 - CVS (Current version software)
+        Centralizado
+        Open Source
+        Mais popular
+        Alguns problemas (renomear, remover, tempo de commit, ...)
+
+    2000 - SVN (Subversion)
+        Centralizado
+        Open Source
+        Ativo até hoje
+        CVS-like
+
+    2000 - BitKeeper
+        Distribuido
+        Proprietário
+        Versão comunidade (maior cliente: Linux e seu Kernel)
+        CVS-free
+
+    2004 - BitKeeper
+        SourcePuller
+        Engenharia Reversa
+        Recursos destravados
+
+    2005 - BitKeeper
+        Nova licença
+        Block a acesso a metadados
+        Só na versão comercial
+
+    2005 - Git
+        Linus Torvalds
+        Distribuido
+        Open Source
+        Feito em 10 dias (versão usável)
+        Performance++
+
+    O que quer dizer "Git"?
+        Três letras do alfabeto
+        Uma gíria inglesa: teimoso, cabeça-dura, pensa que sempre está certo
+        Global information tracker
+        Goddamn idiotic truckload of shit
+
+    E o GitHub?
+        2008 - criação
+        Proprietário
+        Hospedagem de código
+        Baseado em Git
+        2009 - 46k repositórios
+        2010 - 100k users / 1M repo
+        2011 - Ultrapassou SourceForge
+        2013 - 3M users / 5M repo
+        2016 - 14° lugar na lista da Forbes
+        2018 - Maior ataque de DDoS da história (1.35Mb/s de tráfego)
+        2018 - Adiquiridos pela Microsoft
+                (US$ 7.5 Bilhões)
+                Operação independente    
+        2020 - GitHub compra o npm
+
+    E o mascote do GitHub?
+        OctopusCat / OctoCat
+        Larrybird (Twitter)
+        iStock
+
+    Repo local: Git
+    Repo remoto: GitHub
+
+
+AULA 04 - Instalações e configurações importantes
+
+    Instalações:
+        Bom navegador para programação: Google Chrome (standalone -> adicionar no endereço "?standalone=1") / Microsoft Edge (Baseado em Chromium)
+        Editor de código: Visual Studio Code (Microsoft, integração) [salvar automaticamente, word wrap, color theme]
+        Git SCM (Souce code Management) [add VSCode na integração]
+        GitHub Desktop
+
+
+AULA 05 - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

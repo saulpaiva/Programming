@@ -1,0 +1,88 @@
+CURSO DE WORDPRESS - Curso em Vídeo
+
+
+-> Ferramentas úteis para desenvolvedores:
+
+	- FileZilla (ou WinSCP)
+	- PuTTY (Linux: https://www.ssh.com/ssh/putty/linux/  ;or;  https://itsfoss.com/putty-linux/)
+	- ColorZilla (https://www.colorzilla.com/)
+	- Fontface Ninja (https://chrome.google.com/webstore/detail/fonts-ninja/eljapbgkmlngdpckoiiibecpemleclhh  ;  https://www.fonts.ninja/)
+	- Notepad++ (https://notepad-plus-plus.org/downloads/ ; Linux-> https://itsfoss.com/notepad-plus-plus-linux/)
+	- XAMPP 
+		# Windows
+
+		- https://www.apachefriends.org/index.html; 
+		- Go to XAMPP, installation directory, select the xampp-control.exe, right click properties--> compatability, Run as administrator, apply.
+		
+		[img]C:/Users/HOME/Desktop[/img]
+
+		# Linux
+		
+		https://www.edivaldobrito.com.br/como-instalar-o-xampp-no-linux/   ;   https://www.apachefriends.org/faq_linux.html   ;   https://www.youtube.com/watch?v=ByrlZqCoTZM)
+		# Abrir o server local: (http://localhost/dashboard/) [Apache]
+		# Abrir o banco de dados local: (http://localhost/phpmyadmin/) [MySQL]
+	
+-> Preparando o ambiente:
+	
+	- No serviço de Hospedagem:
+		#Criação de 1 e-mail comercial (recomendado = 2 e-mails) [1024 MB por conta]
+		
+	- No XAMPP:
+		# criar Database (latin2_general_ci)
+		# phpmyadmin -> New -> Nome ; latin2_general_ci 
+		# user = (root) ; password = ()
+		
+-> Instalando o WordPress no PC:
+
+	- Windows:
+
+		# baixar em https://wordpress.org/download/
+		# copiar pasta compactada para C:/xampp/htdocs
+		# extrair em C:/xampp/htdocs
+		# renomear pasta criada (minha_pasta)
+		# http://localhost/minha_pasta/
+
+
+	- Linux:
+
+		# baixar em https://wordpress.org/download/
+		# copiar pasta compactada para /opt/lampp/htdocs
+		# extrair em /opt/lampp/htdocs
+		# renomear pasta criada (minha_pasta)
+		# http://localhost/minha_pasta/
+
+-> Acessando a página:
+
+	# Nome do banco de dados: cursoemvideowp
+	# Nome do usuário: root
+	# Senha: (vazio)
+	# Servidor do banco de dados: localhost
+	# Prefixo da tabela: wp_ (recomendado colocar um original por segurança)
+
+-> Instalando o WP:
+	# Título do site: Curso WordPress
+	# Nome do usuário: cursoemvideo
+	# Senha: s$Ve^J1dvxXd9CNHtP
+	# e-mail: transkipedia@gmail.com
+
+-> Instalação manual:
+	# Com seu serviço de host: entre no FileZilla
+	# Baixe o WordPress e arraste o arquivo compaquitado para a pasta do FileZilla
+	# Abra o PuTTY, coloque o ftp e a porta (do seu serviço de host), abra a página, coloque as credenciais 
+	# Comandos: cd cursowp, unzip [arquivo zip], rm [arquivo zip]
+	# Abrir o site e efetuar a instalação do WordPress
+	# Lemprar de mudar 'http' para 'https'
+
+-> Instalação automática (Hostnet):
+	# Clicar no botão do criador de sites
+
+-> Instalando temas e plugins:
+	# Thema: Astra (tema pai)
+	# Gerar tema filho (https://wpastra.com/child-theme-generator/)
+	# Enviar tema filho no WP e ativá-lo
+	# Excluir temas/plugins desnecessários (todos temas restantes, akismet e hello doll)
+	# Plugins:
+		- Microthemer, Classic Editor, Ultimate Addons for Gutenberg (Beaver builder pago e addons como opcional)
+		- Configurar Classic Editor: Editor de blocos; Permitir que os usuários alternem entre editores
+
+-> 

@@ -1,0 +1,150 @@
+AULA 01 - Introdução a Algoritmos
+
+    O que é um algoritmo?
+        Tecnologias utilizam de algoritmos no dia a dia
+        São conjuntos de passos finitos e organizados que, quando executados, resolvem um determinado problema
+        Traçam uma "Rotina"
+        Obedecem uma sequência lógica
+        Tem um padrão de funcionamento
+
+
+AULA 02 - Primeiro Algoritmo
+
+    Algoritmos computacionais:
+        São passos a serem seguidos por um módulo processador
+        e seus respectivos usuários que, quando executados na ordem correta,
+        conseguem realizar determinada tarefa.
+
+    Módulo processador:
+        Tudo aquilo que pode ser programável
+
+    Passos:
+        Lógica de programação
+        Escrever em uma linguagem de programação
+        Usar em um sistema
+
+    Ferramentas para Algoritmos:
+        Fluxograma
+        Nassi Shneiderman
+        Portugol (VisuAlg)
+
+    VisuAlg comandos:
+
+        Atalhos:
+            // inicia uma estrutura básica vazia
+            '!' seguido de 'Ctrl + space'
+
+        Saída:
+            escreva("frase") ou Escreva("frase")
+            escreval("eswcreva e pula uma linha")
+            var
+                identificador: tipo
+            Atribuição:
+                identificador <- 'variavel'
+            escreva("mensagem", msg)    
+
+    Variáveis:
+        São informações guardadas em espaços na memória
+
+
+
+    Indentificadores:
+        1. Deve começar com uma letra
+        2. Os próximos podem ser letras ou números
+        3. Não pode utilizar nenhum símbolo, exceto _
+        4. Não pode conter espaços em branco
+        5. Não pode conter letras com acentos
+        6. Não pode ser uma palavra reservada
+
+    Tipos primitivos
+        Inteiro (1, 3, -5, 198, 0)
+        Real (0.5, 5.0, 9.8)
+        Caractere ("Gustavo", "Algoritmo", "123")
+        Logico (vardadeiro, falso)
+
+
+AULA 03 - Comando de Entrada e Operadores
+
+    Comandos de entrada:
+        var1, var2: tipo
+        escreva("digite a var1: ")
+        leia(var1)
+        escreva("digite a var2: ")
+        leia(var2)
+
+    Operadores aritméticos:
+        Adição (+)
+        Subtração (-)
+        Multiplicação (*)
+        Divisão (/)
+        Divisão inteira [parte inteira da divisão] (\)
+        Exponenciação (^)
+        Módulo [resto da divisão] (%)
+
+    Ordem de precedência:
+        1. Parênteses
+        2. Exponenciação
+        3. Multiplicação / Divisão
+        4. Adição / Subtração
+
+    Obs: Ao fazer alguma divisão, a variável é convertida para o tipo 'real'
+
+    Funções aritméticas:
+        Abs(num)       | Valor absoluto
+        Exp(base, pot) | Exponenciação
+        Int(real)      | Valor inteiro
+        RaizQ(num)     | Raiz quadrada
+        Pi             | Retorna pi
+        Sen(num)       | Seno (rad)
+        Cos(num)       | Cosseno (rad)
+        Tan(num)       | Tangente (rad)
+        GraupRad(num)  | Graus para rad
+
+    
+AULA 04 - Operadores Lógicos e Relacionais
+
+    verdadeiro/falso
+
+    Operadores relacionais:
+        Maior que (>)
+        Menor que (<)
+        Maior ou igual a (>=)
+        Menor ou igual a (<=)
+        Igual a (=)
+        Diferente de (<>)
+
+    Operadores lógicos:
+        - e
+        - ou
+        - não/nao
+
+    Ordem de precedência:
+        1. Parênteses
+        2. Exponenciação
+        3. Multiplicação / Divisão
+        4. Adição / Subtração
+        5. Relacionais
+        6. Lógicos
+
+
+AULA 05 - Introdução ao Scratch
+
+    Download and install Scracth - https://scratch.mit.edu/download/scratch2
+    Use online editor - https://scratch.mit.edu/
+
+
+AULA 06 - Exercícios Resolvidos de Algoritmos
+
+    Exercícios feitos no VisuAlg e Scratch (ex01 ao ex05)
+
+    // 4 casas, sendo 1 após a vírgula 
+    escreva(var:4:1)
+
+    ex05:
+        empréstimo
+        20% de juros
+        quantas parcelas
+        valor total
+        valor de cada parcela
+
+

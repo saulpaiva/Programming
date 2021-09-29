@@ -1,0 +1,129 @@
+AULA 01 - O que o JavaScript é capaz de fazer?
+
+    Praticamente tudo!
+
+    Client X Server
+        Cliente: PC, celular, tablet
+        Server: Fornecem os dados
+
+    Cliente -> Navegador -> Internet(nuvem) -> Servidor(dados solicitados)
+
+    Servidor manda uma cópia os dados requisitados para o Cliente
+
+    JavaScript funciona bem mais para o Cliente
+
+    Elementos de um Website (cliente):
+        HTML (jornalista)
+            escreve o texto, imagem e todo conteúdo da matéria
+        CSS (designer)
+            estiliza, oraganiza, dimensiona os conteúdos
+        JavaScript (programador)
+            interações, integração, segurança e logística
+
+    Resumo:
+        HTML:
+            texto e marcações, imagens, conteúdo
+        CSS:
+            designer, bordas, cores
+        JavaScript:
+            interações, legendas, ações, animações
+
+    Página do browser (Google Chrome) -> Botão direito do mouse -> Inspecionar (Dev tools) -> Settings -> Preferences -> Disable JavaScript
+
+    Comandos:
+
+        // manda um alerta em forma de notificação
+        alert('Olá, mundo!') 
+
+        // muda a cor do fundo para preto
+        document.body.style.background = 'black' 
+
+        // muda a cor do logo (img#hplogo) para a escala de cinza
+        document.querySelector('img#hplogo').style.filter = 'grayscale(100%)'
+
+        // desaparece/oculta o logo (img#hplogo)
+        document.querySelector('img#hplogo').style.visibility = 'hidden'
+
+        // modifica o texto ('span.bstn-hl-title') [de uma reportagem por exemplo]
+        document.querySelector('span.bstn-hl-title').innerText = 'Saul está cansado de tanta Fake News'
+
+    Estas modificações apenas modificam a página do Cliente, a do Servidor permanece inalterada
+
+
+AULA 02 - Como chegamos até aqui? (Evolução do JavaScript)
+
+    Comentários em JS: /* Meu comentário */
+
+    Linha do tempo:
+
+        1970 - DARPA
+        Rede para proteção de dados: Arpanet -> Internet
+
+        1993 - Genebra (TBL: Tim)
+        HTML, HTTP, WWW
+        Navegador: Mosaic (cnsa)
+
+        1994 - Mark
+        Navegador: Netscape (Grupo Modzilla)
+
+        1995 - Silicomgraphics -> Netscape (Brandom)
+        Criação da linguagem Moca, e nasceu no mesmo tempo de Java
+        Moca -> JavaScript
+        Microsoft lançou o Internet Explorer
+        Microsoft criou uma nova linguagem: JotaScript
+
+        1997 - ECMA
+        Padronizou e criou ECMAScript (JavaScript padronizado)
+
+        2002 - Netscape faliu
+        Fundação mozilla foi criada (firefox)
+
+        2008 - Google
+        Surgiu o Google Chrome
+        Motor interno de JavaScript poderoso (V8)
+        Geração de código JIT (Just in time)
+        código aberto
+
+        2010 - NodeJS
+        Possibilita usar JS sem o Navegador
+
+    ECMAScript6 (ES6) - versão bem popular
+
+    ES 2018 - Versão mais atual no momento
+
+    Várias tecnologias, linguagens e frameworks têm por base a linguagem JavaScript
+
+
+AULA 03 - Dando os primeiros passos
+
+    Que código é esse?: `${Primeiros passos JS}`
+
+    Como aprendemos? (aprendizado não se dará apenas assistindo aulas)
+        Aprender a tocar violão
+        Manobras de bicicleta
+        Programação
+
+    Formas de aprender:
+        Assistir vídeos
+        Praticar
+        Ler conteúdos (manuais, livros, ...)
+        Anotações
+        Interações com outras pessoas (ensinar, ajudar nos fóruns)
+        Criar problemas próprios e tentar solucionar
+
+    Bibliografia recomendada:
+        JavaScript, o guia definitivo [O'Reilly]
+        JavaScript, guia do programador [Maurício  Samy Silva]
+        Guia de referência da mozilla
+        Guia de referência da ECMA
+
+    Instalando recursos para o curso:
+        Google Chrome
+        VS Code
+        Node.js (sair do terminal: .exit + enter)
+
+
+AULA 04 - 
+
+
+
