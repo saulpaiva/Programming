@@ -28,10 +28,10 @@ except:
     print('using except')
 print('Done', istr)'''
 
-guess = input('Choose a number and then press Enter: ')
+guess = input('Choose a integer number and then press Enter: ')
 try:
-    number = float(guess)
-    # print('Your number is very cool! ', number*'NICE ')
-    print('Your number is very cool! ', number)
+    number = int(guess)
+    print('Your number is very cool! ', number*'NICE ')
+    # print('Your number is very cool! ', number)
 except:
     print('That is not a number, try again!')
