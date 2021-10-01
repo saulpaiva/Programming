@@ -30,7 +30,8 @@ print('Done', istr)'''
 
 guess = input('Choose a number and then press Enter: ')
 try:
-    number = int(guess)
-    print('Your number is very cool! ', number*'NICE ')
+    number = float(guess)
+    # print('Your number is very cool! ', number*'NICE ')
+    print('Your number is very cool! ', number)
 except:
     print('That is not a number, try again!')
