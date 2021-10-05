@@ -21,6 +21,10 @@
 #         continue
 #     if line == 'done' :
 #         break
+#     if line == 'Done' :
+#         break
+#     if line == 'DONE' :
+#         break
 #     print(line)
 # print('Done!')
 
