@@ -40,14 +40,35 @@
 
 '''search using a boolean variable'''
 
-found = False
-print('Before', found)
-for value in [9, 41, 12, 3, 74, 15]:
-    if value == 3:
-        found = True
-    print(found, value)
-print('After', found)
+# found = False
+# print('Before', found)
+# for value in [9, 41, 12, 3, 74, 15]:
+#     if value == 3:
+#         found = True
+#     print(found, value)
+# print('After', found)
 
 
 '''how to find the smallest value'''
-# 8:10
+
+# smallest = None
+# print('Before the loop', smallest)
+# for value in [9, 41, 12, 3, 74, 15] :
+#     if smallest is None or smallest > value :
+#         smallest = value
+#     print('smallest so far:', smallest, 'Number of the list:', value)
+# print('After the loop', smallest)
+
+'''other manner of finding the smallest value'''
+
+# smallest = None
+# print('Before the loop', smallest)
+# for value in [9, 41, 12, 3, 74, 15] :
+#     if smallest is None :
+#         smallest = value
+#     elif value < smallest :
+#         smallest = value
+#     print('smallest so far:', smallest, 'Number of the list:', value)
+# print('After the loop', smallest)
+
+''' "is" and "is not" operators is stronger than "==" and "!=" '''
