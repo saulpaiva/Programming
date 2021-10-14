@@ -16,5 +16,3 @@ while True:
         s += n
     except:
         print('Invalid input')
-
-    
