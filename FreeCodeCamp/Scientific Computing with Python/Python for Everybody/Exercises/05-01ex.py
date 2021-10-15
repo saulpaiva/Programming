@@ -10,9 +10,7 @@ def summary():
         a = s/i
     except:
         a = None
-    print('total =', s)
-    print('count =', i)
-    print('average =', a)
+    print('Total =', s, '\nCount =', i, '\nAverage =', a)
 
 # iteration
 while True:
