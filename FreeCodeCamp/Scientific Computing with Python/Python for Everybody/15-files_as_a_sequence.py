@@ -66,5 +66,31 @@
 
 '''prompt for file name'''
 
-fname = input('Enter the file path/name:    ')
-fhand = open(fname)
+# fname = input('Enter the file path/name:    ')
+# fhand = open(fname)
+# count = 0
+# for line in fhand:
+#     if line.startswith('cheese'):
+#         count += 1
+#         # print the lines
+#         print(line)
+# print('There were', count, 'cheese lines in', fname)
+
+'''bad file names'''
+
+# fname = input('Enter the file path/name:    ')
+# # try to open file
+# try:
+#     fhand = open(fname)
+# except:
+#     print('File cannot be opened:', fname)
+#     # quit/terminate the program, end
+#     quit()
+
+# count = 0
+# for line in fhand:
+#     if line.startswith('cheese'):
+#         count += 1
+#         # print the lines
+#         print(line)
+# print('There were', count, 'cheese lines in', fname)
