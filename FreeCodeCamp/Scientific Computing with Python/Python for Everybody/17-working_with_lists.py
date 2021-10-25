@@ -1,4 +1,4 @@
-'''concatenating list using +'''
+"""concatenating list using +"""
 
 # a = [1, 2, 3]
 # b = [4, 5, 6]
@@ -46,7 +46,7 @@
 
 # friends = ['Joseph', 'Glenn', 'Sally']
 # print(friends)
-# # sort alphabetcally
+# # sort alphabetically
 # friends.sort()
 # print(friends)
 
@@ -62,7 +62,7 @@ nums = [3, 41, 12, 9, 74, 15]
 
 '''average examples'''
 
-total = 0
-count = 0
-while True :
-    inp = input('Enter a number: ')
+# total = 0
+# count = 0
+# while True :
+#     inp = input('Enter a number: ')
