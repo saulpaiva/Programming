@@ -5,3 +5,21 @@ Remote Tools Ferramentas especificamente curadas para a comunidade de trabalho r
 The Productivity Stack do Hive Várias ferramentas categorizadas em grupos e focadas em aumentar a sua produtividade The Productivity Stack | Hive
 Remote Tools Rising Stars Artigo da Remote How sobre ferramentas que estão ganhando notoriedade em 2020 Remote Tools Rising Stars — Best Tools For Remote Workers To Watch In 2020 | Remote-how
 Por último a Versus, um site inteiramente dedicado a você achar alternativas a uma ferramenta que você tem em mente que tenha a mesma funcionalidade e propósito. Versus: Find alternatives
+
+########################################
+
+Depois que você já entendeu o projeto e começou a se integrar com os processos e ferramentas da sua equipe, falamos sobre como definir o seu dia a dia naquele projeto. Pois algumas pequenas mudanças na forma que organizamos o nosso dia, podem ser a diferença entre ter um dia mais produtivo levando uma vida muito mais equilibrada e perder o controle das expectativas e das entregas.
+
+Falamos sobre a diferença entre escopo fechado e escopo priorizado, como trabalhar com escopo priorizado dentro do contexto de desenvolvimento de softwares é melhor e como aplicar essas práticas no seu dia a dia.
+
+No último vídeo, passamos por várias preparações que podem ajudar a sua atuação em projeto a ser um sucesso. Porém, a verdade é que, na prática, mesmo com todas as preparações e precauções tomadas até agora, alguns problemas podem aparecer no decorrer do projeto.
+
+A melhor forma de estar preparado para resolver esses problemas é identificar os sinais iniciais para conseguir lidar com eles enquanto ainda são pequenos e não quando viraram uma bola de neve.
+
+Quando você entrar em um novo time provavelmente vai ter que usar a ferramenta de gerenciamento de projetos daquele time, mas vamos indicar algumas ferramentas aqui nesse vídeo para você já ir se familiarizando em como eles funcionam e até poder começar a fazer a sua organização pessoal:
+
+Trello
+Asana
+Todoist
+Things
+Então chegamos ao final, com esse curso você sai preparado para entrar em um novo time remoto e já começar seu novo projeto sabendo o que fazer e como se organizar. Coloque essas coisas em prática e fique cada dia 1% melhor, você já está preparado para dar esse passo.
