@@ -18,8 +18,9 @@ A melhor forma de estar preparado para resolver esses problemas é identificar o
 
 Quando você entrar em um novo time provavelmente vai ter que usar a ferramenta de gerenciamento de projetos daquele time, mas vamos indicar algumas ferramentas aqui nesse vídeo para você já ir se familiarizando em como eles funcionam e até poder começar a fazer a sua organização pessoal:
 
-Trello
-Asana
-Todoist
-Things
+- Trello
+- Asana
+- Todoist
+- Things
+
 Então chegamos ao final, com esse curso você sai preparado para entrar em um novo time remoto e já começar seu novo projeto sabendo o que fazer e como se organizar. Coloque essas coisas em prática e fique cada dia 1% melhor, você já está preparado para dar esse passo.
