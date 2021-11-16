@@ -34,15 +34,44 @@
 - Windows (shell)
 
     cd
+    cd /
+    cd ..
+    cls
     dir
     mkdir
-    del / rmdir
+    del
+    rmdir /S /Q
 
 - Unix (bash)
 
     cd
+    cd /
+    cd ..
+    clear
+    Ctrl + L
     ls
     mkdir
-    rm
-    rf
+    rm -rf
 
+- Instalação do Git
+
+    Pesquisar Git e encontrar o site oficial
+    https://git-scm.com/
+    Para cada sistema operacional (SO) terá instruções de instalação
+
+- Entendendo como o Git funciona por baixo dos panos
+
+    SHA1
+
+        Algoritmos de encriptação
+        characteres identificador de 40 dígitos
+        Criado pela NSA
+        echo "ola mundo" | openssl sha1
+        Forma curta de representar um arquivo
+
+    Objetos fundamentais
+
+
+
+    Sistema distribuído
+    Segurança
