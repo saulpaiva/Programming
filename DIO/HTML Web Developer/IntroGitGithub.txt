@@ -71,7 +71,22 @@
 
     Objetos fundamentais
 
-
+        Blobs ("bolha") [metadados + sha1 do arquivo]
+            echo 'conteudo' | git hash-object --stdin
+            echo -e 'blob 9\0conteudo' |  openssl sha1
+        Tree [armazena blobs + metadados + nome do arquivo]
+            Pode apontar para outras árvores (trees)
+        Commit
+            Aponta para uma tree, parente, autor, mensagem, timestamp (data de criação)
+            Também possui SHA1
+            Possibilita a criação de uma linha do tempo
 
     Sistema distribuído
+
+        Vários autores podem contribuir
+
     Segurança
+
+        A forma como foi projetado o Git torna-o extremamente seguro
+
+- Chaves SSH e Tokens
