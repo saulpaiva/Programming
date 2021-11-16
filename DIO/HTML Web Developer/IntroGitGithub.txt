@@ -1,0 +1,48 @@
+> Introdução ao Git
+
+- Versionamentos
+
+    Várias versões do desenvolvimento de um projeto, até seu estado final;
+    Inclui sugestões e melhorias
+
+- Git
+
+    Criado em 2005 por Linus Torvalds
+    Sistema/software de versionamento de código distribuído
+    Colaborativo (distribuído pelo mundo inteiro)
+    Versionamentos de código ja existia na época
+    Github "guarda" esses códigos (repositório online ou "host")
+
+- Benefícios
+
+    Controle de versão
+    Armazenamento em nuvem
+    Trabalho em equipe
+    Melhorar seu código
+    Reconhecimento
+
+> Navegação via command line, interface e instalação
+
+- Comandos básicos para um bom desempenho no terminal
+
+    GUI X CLI (Grafic user interface X Command line interface)
+    Mudar pastas
+    Listar as pastas
+    Criar pastas/arquivos
+    Deletar pastas/arquivos
+
+- Windows (shell)
+
+    cd
+    dir
+    mkdir
+    del / rmdir
+
+- Unix (bash)
+
+    cd
+    ls
+    mkdir
+    rm
+    rf
+
