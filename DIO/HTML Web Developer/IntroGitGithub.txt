@@ -128,3 +128,11 @@ Personal token:
 git init
 git add
 git commit
+
+# mostra arquivos ocultos
+ls -a
+# configurações global
+git config --global user.email "saulpaiva@gmail.com"
+git config --global user.name saulpaiva
+
+Arquivo markdown: (.mt)
