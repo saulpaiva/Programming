@@ -91,4 +91,40 @@
 
 - Chaves SSH e Tokens
 
-    Chave SSH
+Chave SSH:
+
+    WINDOWS
+
+        ssh-keygen -t ed25519 -C saulpaiva@gmail.com
+        cd /c/Users/saulp/.ssh/
+        cat id_ed25519.pub
+        eval $(ssh-agent -s)
+        ssh-add id_ed25519
+
+    LINUX/UNIX
+
+        ssh-keygen -t ed25519 -C saulpaiva@gmail.com
+        cd /home/saul/.ssh/
+        cat id_ed25519.pub
+        eval $(ssh-agent -s)
+        ssh-add id_ed25519
+
+    MAC
+
+        Descrito na documentação
+
+    Clonar SSH para o repositório desejado na máquina local
+    git clone [SSH]
+
+Personal token:
+
+    Gerar token pessoal no Github e configurar
+    Recomendável usar chave SSH ao invés
+    Usar HTTPS para clonar o repositório do Github
+    git clone [HTTPS]
+
+- Primeiros comandos com Git
+
+git init
+git add
+git commit
