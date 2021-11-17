@@ -135,4 +135,6 @@ ls -a
 git config --global user.email "saulpaiva@gmail.com"
 git config --global user.name saulpaiva
 
-Arquivo markdown: (.mt)
+Arquivo markdown: (.md)
+# criar arquivo / file
+echo "" > filename.extension
