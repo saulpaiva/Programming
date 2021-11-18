@@ -141,7 +141,7 @@ echo "" > filename.extension
 
 Markdown editor: Typora
 
-# Começar de fato o Git
+# Começar de fato o versionamento com Git
 git init
 git add *
 git commit -m "initial commit"
