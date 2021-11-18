@@ -136,8 +136,12 @@ git config --global user.email "saulpaiva@gmail.com"
 git config --global user.name saulpaiva
 
 Arquivo markdown: (.md)
-# criar arquivo / file
+
+# criar arquivo com conteúdo nulo / file
 echo "" > filename.extension
+
+# criar um arquivo
+echo > filename.extension
 
 Markdown editor: Typora
 
@@ -147,4 +151,47 @@ git add *
 git commit -m "initial commit"
 
 - Ciclo de vida dos arquivos no Git
+
+# inicializa um repositório
+git init
+# move todos os arquivos untracked para staged
+git add *
+
+Quando um arquivo é editado ele vai para o estado "modified"
+
+# O commit "salva" o arquivo e leva-o para o estado de "unmodified"
+Stage --[commit]--> unmodified
+
+# Ambiente de desenvolvimento
+working directory -> staging area -> local repository
+
+# Monitoração dos arquivos
+git status
+
+# Mover um arquivo para outro diretório. Exemplo:
+mv strogonoff.md ./receitas/
+
+- Introdução ao GitHub
+
+# Verifica as configurações
+git config --list
+
+# sair das configurações
+q
+
+# Configurar algo específico (remover configuração salva). Exemplo:
+git config --global --unset user.email
+
+Alterar alguma configuração (email, usuário, ...) mudará a encriptação do arquivo (SHA1)
+
+# Adicionar uma origem remota para o repositório
+git remote add origin https://github.com/saulpaiva/livro-receitas.git
+
+# Lista os repositórios remotos cadastrados
+git remote -v
+
+# Empurra (push) o repositório local para o remoto (host)
+git push origin master
+
+- Resolvendo conflitos
 
