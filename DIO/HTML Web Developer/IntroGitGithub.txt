@@ -138,3 +138,5 @@ git config --global user.name saulpaiva
 Arquivo markdown: (.md)
 # criar arquivo / file
 echo "" > filename.extension
+
+markdown editor: Typora
