@@ -139,4 +139,12 @@ Arquivo markdown: (.md)
 # criar arquivo / file
 echo "" > filename.extension
 
-markdown editor: Typora
+Markdown editor: Typora
+
+# Começar de fato o Git
+git init
+git add *
+git commit -m "initial commit"
+
+- Ciclo de vida dos arquivos no Git
+
