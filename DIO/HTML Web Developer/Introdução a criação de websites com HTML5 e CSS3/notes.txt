@@ -1,0 +1,16 @@
+- Introdução ao curso de HTML
+
+# elemento de um html
+<h1 class="titulo">Título</h1>
+
+# estrutura básica
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta>
+        <title></title>
+    </head>
+    <body>
+    </body>
+</html>
+
