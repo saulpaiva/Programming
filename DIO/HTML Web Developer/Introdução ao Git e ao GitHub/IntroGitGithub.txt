@@ -1,0 +1,204 @@
+> Introdução ao Git
+
+- Versionamentos
+
+    Várias versões do desenvolvimento de um projeto, até seu estado final;
+    Inclui sugestões e melhorias
+
+- Git
+
+    Criado em 2005 por Linus Torvalds
+    Sistema/software de versionamento de código distribuído
+    Colaborativo (distribuído pelo mundo inteiro)
+    Versionamentos de código ja existia na época
+    Github "guarda" esses códigos (repositório online ou "host")
+
+- Benefícios
+
+    Controle de versão
+    Armazenamento em nuvem
+    Trabalho em equipe
+    Melhorar seu código
+    Reconhecimento
+
+> Navegação via command line, interface e instalação
+
+- Comandos básicos para um bom desempenho no terminal
+
+    GUI X CLI (Grafic user interface X Command line interface)
+    Mudar pastas
+    Listar as pastas
+    Criar pastas/arquivos
+    Deletar pastas/arquivos
+
+- Windows (shell)
+
+    cd
+    cd /
+    cd ..
+    cls
+    dir
+    mkdir
+    del
+    rmdir /S /Q
+
+- Unix (bash)
+
+    cd
+    cd /
+    cd ..
+    clear
+    Ctrl + L
+    ls
+    mkdir
+    rm -rf
+
+- Instalação do Git
+
+    Pesquisar Git e encontrar o site oficial
+    https://git-scm.com/
+    Para cada sistema operacional (SO) terá instruções de instalação
+
+- Entendendo como o Git funciona por baixo dos panos
+
+    SHA1
+
+        Algoritmos de encriptação
+        characteres identificador de 40 dígitos
+        Criado pela NSA
+        echo "ola mundo" | openssl sha1
+        Forma curta de representar um arquivo
+
+    Objetos fundamentais
+
+        Blobs ("bolha") [metadados + sha1 do arquivo]
+            echo 'conteudo' | git hash-object --stdin
+            echo -e 'blob 9\0conteudo' |  openssl sha1
+        Tree [armazena blobs + metadados + nome do arquivo]
+            Pode apontar para outras árvores (trees)
+        Commit
+            Aponta para uma tree, parente, autor, mensagem, timestamp (data de criação)
+            Também possui SHA1
+            Possibilita a criação de uma linha do tempo
+
+    Sistema distribuído
+
+        Vários autores podem contribuir
+
+    Segurança
+
+        A forma como foi projetado o Git torna-o extremamente seguro
+
+- Chaves SSH e Tokens
+
+Chave SSH:
+
+    WINDOWS
+
+        ssh-keygen -t ed25519 -C saulpaiva@gmail.com
+        cd /c/Users/saulp/.ssh/
+        cat id_ed25519.pub
+        eval $(ssh-agent -s)
+        ssh-add id_ed25519
+
+    LINUX/UNIX
+
+        ssh-keygen -t ed25519 -C saulpaiva@gmail.com
+        cd /home/saul/.ssh/
+        cat id_ed25519.pub
+        eval $(ssh-agent -s)
+        ssh-add id_ed25519
+
+    MAC
+
+        Descrito na documentação
+
+    Clonar SSH para o repositório desejado na máquina local
+    git clone [SSH]
+
+Personal token:
+
+    Gerar token pessoal no Github e configurar
+    Recomendável usar chave SSH ao invés
+    Usar HTTPS para clonar o repositório do Github
+    git clone [HTTPS]
+
+- Primeiros comandos com Git
+
+git init
+git add
+git commit
+
+# mostra arquivos ocultos
+ls -a
+# configurações global
+git config --global user.email "saulpaiva@gmail.com"
+git config --global user.name saulpaiva
+
+Arquivo markdown: (.md)
+
+# criar arquivo com conteúdo nulo / file
+echo "" > filename.extension
+
+# criar um arquivo
+echo > filename.extension
+
+Markdown editor: Typora
+
+# Começar de fato o versionamento com Git
+git init
+git add *
+git commit -m "initial commit"
+
+- Ciclo de vida dos arquivos no Git
+
+# inicializa um repositório git no diretório
+git init
+# move todos os arquivos untracked para staged
+git add *
+
+Quando um arquivo é editado ele vai para o estado "modified"
+
+# O commit "salva" o arquivo e leva-o para o estado de "unmodified"
+Stage --[commit]--> unmodified
+
+# Ambiente de desenvolvimento
+working directory -> staging area -> local repository
+
+# Monitoração dos arquivos
+git status
+
+# Mover um arquivo para outro diretório. Exemplo:
+mv strogonoff.md ./receitas/
+
+- Introdução ao GitHub
+
+# Verifica as configurações
+git config --list
+
+# sair das configurações
+q
+
+# Configurar algo específico (remover configuração salva). Exemplo:
+git config --global --unset user.email
+
+Alterar alguma configuração (email, usuário, ...) mudará a encriptação do arquivo (SHA1)
+
+# Adicionar uma origem remota para o repositório
+git remote add origin https://github.com/saulpaiva/livro-receitas.git
+
+# Lista os repositórios remotos cadastrados
+git remote -v
+
+# Empurra (push) o repositório local para o remoto (host)
+git push origin master
+
+- Resolvendo conflitos
+
+Conflito de merge
+
+# Puxa (pull) o conteúdo da origem (origin)
+git pull origin master
+
+# Clonar um repositório do GitHub. Exemplo:
+git clone https://github.com/python/cpython.git
