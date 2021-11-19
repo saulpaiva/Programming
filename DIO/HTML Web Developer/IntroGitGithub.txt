@@ -195,3 +195,11 @@ git push origin master
 
 - Resolvendo conflitos
 
+Conflito de merge
+
+# Puxa (pull) o conteúdo da origem (origin)
+git pull origin master
+
+# Clonar um repositório do GitHub. Exemplo:
+git clone https://github.com/python/cpython.git
+
