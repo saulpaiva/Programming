@@ -152,7 +152,7 @@ git commit -m "initial commit"
 
 - Ciclo de vida dos arquivos no Git
 
-# inicializa um repositório
+# inicializa um repositório git no diretório
 git init
 # move todos os arquivos untracked para staged
 git add *
@@ -202,4 +202,3 @@ git pull origin master
 
 # Clonar um repositório do GitHub. Exemplo:
 git clone https://github.com/python/cpython.git
-
