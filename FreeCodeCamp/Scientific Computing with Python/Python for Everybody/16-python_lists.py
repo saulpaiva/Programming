@@ -23,7 +23,7 @@
 
 # friends = ['Joseph','Glenn','Sally']
 # for friend in friends:
-#     print('Happy New Year:', x)
+#     print('Happy New Year:', friend)
 # print('Done!')
 
 # z = ['Joseph','Glenn','Sally']
@@ -37,7 +37,7 @@
 # print(friends[0])
 
 '''lists are mutable'''
-# and strings are immutable
+# # and strings are immutable
 
 # # gives TypeError!
 # fruit = 'Banana'
@@ -61,6 +61,9 @@
 '''using the "range" function'''
 
 # print(range(4))
+
+# for x in range(10) :
+#     print(x)
 
 # friends = ['Joseph','Glenn','Sally']
 # print(range(len(friends)))

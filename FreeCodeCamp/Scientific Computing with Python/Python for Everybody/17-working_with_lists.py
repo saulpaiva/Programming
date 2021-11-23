@@ -52,7 +52,7 @@
 
 '''built-in functions and lists'''
 
-nums = [3, 41, 12, 9, 74, 15]
+# nums = [3, 41, 12, 9, 74, 15]
 
 # print('Len',len(nums))
 # print('Max',max(nums))
@@ -66,3 +66,5 @@ nums = [3, 41, 12, 9, 74, 15]
 # count = 0
 # while True :
 #     inp = input('Enter a number: ')
+
+# Have to continue!

@@ -2,5 +2,11 @@
     "python.linting.pylintEnabled": false,
     "python.linting.enabled": false,
     "python.linting.pycodestyleEnabled": false,
-    "python.linting.mypyEnabled": true
+    "python.linting.mypyEnabled": true,
+    "markdownlint.config": {
+        "MD028": false,
+        "MD025": {
+            "front_matter_title": ""
+        }
+    }
 }
