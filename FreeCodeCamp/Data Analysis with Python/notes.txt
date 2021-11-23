@@ -1,0 +1,45 @@
+- Jupyter Notebook Cells
+
+export to generate pdf's
+code, markdown, raw
+
+Shortcuts:
+
+# navigate mode
+esc
+# editor mode
+enter/return
+# run cell and stay in the cell
+Ctrl + enter/return
+# run cell and skip no next cell
+Shift + enter/return
+# insert cell above
+a
+# insert cell bellow
+b
+# delete cell
+dd
+# copy cell
+c
+# copy and cut cell
+x
+# paste cell
+v
+
+- Jupyter Notebooks Importing and Exporting Data
+
+RMOTR for help
+
+- Numpy Introduction A
+
+Numeric computing library
+
+simple
+
+slow ?
+
+# number of bits
+n
+# number of decimals
+2^n = d decimal numbers
+
