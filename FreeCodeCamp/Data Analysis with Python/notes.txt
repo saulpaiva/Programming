@@ -36,10 +36,22 @@ Numeric computing library
 
 simple
 
-slow ?
+not used directly
 
 # number of bits
 n
 # number of decimals
 2^n = d decimal numbers
+
+- Numpy Introduction B
+
+size of the integers/floats
+
+binary arithmetic
+
+storage of data in memory
+
+simple integer (like 5) consume  20 bytes of memory in plain Python
+
+- Numpy Arrays
 
