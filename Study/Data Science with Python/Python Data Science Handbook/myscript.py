@@ -1,8 +1,8 @@
 # file: myscript.py
 
-def square(x):
-    """square a number"""
-    return x ** 2
+def cubic(x):
+    """cubic of a number"""
+    return x ** 3
 
 for N in range(1, 101):
-    print(N, "square is", square(N))
+    print(N, "cubic is", cubic(N))
