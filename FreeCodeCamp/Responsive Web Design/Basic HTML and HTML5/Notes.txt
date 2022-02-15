@@ -1,2 +1,107 @@
 Personal annotations of the FreeCodeCamp course
 
+Intro
+
+<h1> head </h1>
+
+h2 and so on are subheads
+
+<p> paragraph <p/>
+
+<!--
+comments
+-->
+
+<main> 
+  <h1>Hello World</h1>
+  <p>Hello Paragraph</p>
+</main>
+
+Add image and URL
+
+<img src="https://www.freecatphotoapp.com/your-image.jpg">
+
+with alt atribute
+
+<img src="https://www.freecatphotoapp.com/your-image.jpg" alt="A business cat wearing a necktie.">
+
+Link to External Pages with Anchor Elements
+
+<a href="https://www.freecodecamp.org">this links to freecodecamp.org</a>
+
+Internal link
+
+<a href="#footer">Jump to Bottom<a>
+<footnote id="footer">Copyright<footnote>
+
+Link within plain text
+
+<p>
+  Here's a <a target="_blank" href="https://www.freecodecamp.org"> link to www.freecodecamp.org</a> for you to follow.
+</p>
+
+Dead link
+
+<a target="_blank" href="#">
+
+Unordered lists
+
+<ul>
+  <li>milk</li>
+  <li>cheese</li>
+</ul>
+
+Ordered lists
+
+<ol>
+  <li>Garfield</li>
+  <li>Sylvester</li>
+</ol>
+
+Text input
+
+<input type="text">
+
+Placeholder text
+
+<input type="text" placeholder="this is placeholder text">
+
+<form action="/url-where-you-want-to-submit-form-data">
+  <input>
+</form>
+
+Submit button
+
+<button type="submit">this button submits the form</button>
+
+Require a Field
+
+<input type="text" required>
+
+Radio button
+
+<label> 
+  <input type="radio" name="indoor-outdoor">Indoor 
+</label>
+
+<input id="indoor" type="radio" name="indoor-outdoor">
+<label for="indoor">Indoor</label>
+
+Checkbox
+
+<label for="loving"><input id="loving" type="checkbox" name="personality"> Loving</label>
+
+Add Values to identify the data on server
+
+<label for="loving"><input id="loving" value="loving" type="checkbox" name="personality"> Loving</label>
+
+Check by default
+
+<input type="radio" name="test-name" checked>
+
+Divisor
+<div>
+    <p>
+    bla bla
+    </p>
+</div>
