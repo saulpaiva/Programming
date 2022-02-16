@@ -45,4 +45,47 @@ Import a Google Font
 
 font-family: FAMILY_NAME, GENERIC_NAME;
 
+Specify How Fonts Should Degrade
+
+p {
+    font-family: Helvetica, sans-serif;
+  }
+
+Size Your Images
+
+<style>
+  .larger-image {
+    width: 500px;
+  }
+</style>
+
+Add Borders Around Your Elements
+
+<style>
+  .thin-red-border {
+    border-color: red;
+    border-width: 5px;
+    border-style: solid;
+  }
+</style>
+
+<img class="class1 class2">
+
+Add Rounded Corners with border-radius
+
+border-radius: 10px;
+
+Make Circular Images with a border-radius
+
+border-radius: 50%;
+
+Give a Background Color to a div Element
+
+.green-background {
+    background-color: green;
+  }
+
+Set the id of an Element
+
+<h2 id="cat-photo-app">
 
