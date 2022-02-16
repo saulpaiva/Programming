@@ -1,0 +1,48 @@
+CSS stands for Cascading Style Sheets
+
+Change the Color of Text
+
+<h2 style="color: blue;">CatPhotoApp</h2>
+
+Use CSS Selectors to Style Elements
+
+<style>
+</style>
+
+<style>
+  h2 {
+    color: red;
+  }
+</style>
+
+Use a CSS Class to Style an Element
+
+<style>
+  .blue-text {
+    color: blue;
+  }
+</style>
+
+<h2 class="blue-text">CatPhotoApp</h2>
+
+Change the Font Size of an Element
+
+h1 {
+    font-size: 30px;
+  }
+
+Set the Font Family of an Element
+
+h2 {
+    font-family: sans-serif;
+  }
+
+Import a Google Font
+
+- Google fonts [https://fonts.google.com/]
+
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+
+font-family: FAMILY_NAME, GENERIC_NAME;
+
+

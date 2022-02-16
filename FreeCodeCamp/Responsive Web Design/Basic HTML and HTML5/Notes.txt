@@ -105,3 +105,23 @@ Divisor
     bla bla
     </p>
 </div>
+
+Declarethe Doctype of an HTML Document
+
+<!DOCTYPE html>
+<html>
+
+</html>
+
+Define the Head and Body of an HTML Document
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta />
+  </head>
+  <body>
+    <div>
+    </div>
+  </body>
+</html>
