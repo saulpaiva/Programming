@@ -89,3 +89,169 @@ Set the id of an Element
 
 <h2 id="cat-photo-app">
 
+Use an id Attribute to Style an Element
+
+#cat-photo-element {
+  background-color: green;
+}
+
+Use Clockwise Notation to Specify the Padding and the Margin of an Element
+
+padding: 10px 20px 10px 20px;
+margin: 10px 20px 10px 20px;
+
+these four values work like a clock: top, right, bottom, left
+
+Use Attribute Selectors to Style Elements
+
+[type='radio'] {
+  margin: 20px 0px 20px 0px;
+}
+
+Style the HTML Body Element
+
+body {
+  background-color: black;
+}
+
+Inherit Styles from the Body Element
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+</style>
+<h1>Hello World!</h1>
+
+Prioritize One Style Over Another
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink;
+  }
+</style>
+<h1 class="pink-text">Hello World!</h1>
+
+Override Styles in Subsequent CSS
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink;
+  }
+  .blue-text {
+    color: blue;
+  }
+</style>
+<h1 class="pink-text blue-text">Hello World!</h1>
+
+notice that if we even had put blue-text before pink-text in our h1 element's classes, it would still look at the declaration order and not the order of their use!
+
+Override Class Declarations by Styling ID Attributes
+
+<h1 id="orange-text">
+
+#brown-text {
+  color: brown;
+}
+
+note: It doesn't matter whether you declare this CSS above or below pink-text class, since the id attribute will always take precedence.
+
+Override Class Declarations with Inline Styles
+
+<h1 style="color: green;">
+
+Override All Other Styles by using Important
+
+color: red !important;
+
+Use Hex Code for Specific Colors
+
+- [https://www.freecodecamp.org/news/hexadecimal-number-system/]
+- [https://www.freecodecamp.org/news/rgb-color-html-and-css-guide/#whatisthergbcolormodel]
+
+body {
+  color: #000000;
+}
+
+Use Hex Code to Mix Colors
+
+Color	Hex Code
+Dodger Blue	#1E90FF
+Green	#00FF00
+Orange	#FFA500
+Red	#FF0000
+
+Use Abbreviated Hex Code
+
+Color	Short Hex Code
+Cyan	#0FF
+Green	#0F0
+Red	#F00
+Fuchsia	#F0F
+
+Use RGB values to Color Elements
+
+rgb(255, 255, 255)
+
+body {
+  background-color: rgb(255, 165, 0);
+}
+
+Use RGB to Mix Colors
+
+
+Color	RGB
+Blue	rgb(0, 0, 255)
+Red	rgb(255, 0, 0)
+Orchid	rgb(218, 112, 214)
+Sienna	rgb(160, 82, 45)
+
+Create a custom CSS Variable
+
+--penguin-skin: gray;
+
+Use a custom CSS Variable
+
+background: var(--penguin-skin);
+
+Attach a Fallback value to a CSS Variable
+
+background: var(--penguin-skin, black);
+
+Improve Compatibility with Browser Fallbacks
+
+background: red;
+background: var(--penguin-skin);
+
+old browsers use the declaration before the variable if possible
+
+Inherit CSS Variables
+
+:root is a pseudo-class selector that matches the root element of the document, usually the html element. By creating your variables in :root, they will be available globally and can be accessed from any other selector in the style sheet.
+
+Change a variable for a specific area
+
+  declare again and set the variable
+
+Use a media query to change a variable
+
+@media (max-width: 350px) {
+  :root {
+    /* Only change code below this line */
+    --penguin-size: 200px;
+    --penguin-skin: black;
+    /* Only change code above this line */
+  }
+}
