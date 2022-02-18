@@ -1,2 +1,75 @@
 Create Visual Balance Using the text-align Property
 
+    text-align: justify; spaces the text so that each line has equal width.
+
+    text-align: center; centers the text
+
+    text-align: right; right-aligns the text
+
+    and text-align: left; (the default) left-aligns the text.
+
+Adjust the Width of an Element Using the width Property
+
+img {
+    width: 220px;
+}
+
+Adjust the Height of an Element Using the height Property
+
+img {
+    height: 20px;
+}
+
+Use the strong Tag to Make Text Bold
+
+    With the strong tag, the browser applies the CSS of font-weight: bold; to the element.
+
+    <strong>Stanford University</strong>
+
+Use the u Tag to Underline Text
+
+    With the u tag, the browser applies the CSS of text-decoration: underline; to the element.
+
+    <u>Ph.D. students</u>
+
+    Note: Try to avoid using the u tag when it could be confused for a link. Anchor tags also have a default underlined formatting.
+
+Use the em Tag to Italicize Text
+
+    To emphasize text, you can use the em tag. This displays text as italicized, as the browser applies the CSS of font-style: italic; to the element.
+
+    <em>Google was founded by Larry Page and Sergey Brin while they were <u>Ph.D. students</u> at <strong>Stanford University</strong>.</em>
+
+Use the s Tag to Strikethrough Text
+
+    With the s tag, the browser applies the CSS of text-decoration: line-through; to the element.
+
+    <s>Google</s>
+
+Create a Horizontal Line Using the hr Element
+
+    <hr>
+
+    Note: In HTML, hr is a self-closing tag, and therefore doesn't need a separate closing tag.
+
+Adjust the background-color Property of Text
+
+rgba stands for:
+  r = red
+  g = green
+  b = blue
+  a = alpha/level of opacity
+
+background-color: rgba(45, 45, 45, 0.1)
+
+Adjust the Size of a Heading Element Versus a Paragraph Element
+
+h4 {
+    text-align: center;
+    background-color: rgba(45, 45, 45, 0.1);
+    padding: 10px;
+    font-size: 27px;
+}
+
+Add a box-shadow to a Card-like Element
+
