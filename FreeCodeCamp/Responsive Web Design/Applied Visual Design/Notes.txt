@@ -95,3 +95,68 @@ Decrease the Opacity of an Element
 
 Use the text-transform Property to Make Text Uppercase
 
+    Value	Result
+    lowercase	"transform me"
+    uppercase	"TRANSFORM ME"
+    capitalize	"Transform Me"
+    initial	Use the default value
+    inherit	Use the text-transform value from the parent element
+    none	Default: Use the original text
+
+    text-transform: uppercase;
+
+Set the font-size for Multiple Heading Elements
+
+    font-size: 68px;
+
+Set the font-weight for Multiple Heading Elements
+
+    font-weight: 800;
+
+Set the font-size of Paragraph Text
+
+    The font-size property in CSS is not limited to headings, it can be applied to any element containing text.
+
+Set the line-height of Paragraphs
+
+    line-height: 25px;
+
+Adjust the Hover State of an Anchor Tag
+
+a:hover {
+    color: red;
+}
+
+Change an Element's Relative Position
+
+p {
+    position: relative;
+    bottom: 10px;
+}
+
+Move a Relatively Positioned Element with CSS Offsets
+
+    The CSS offsets of top or bottom, and left or right tell the browser how far to offset an item relative to where it would sit in the normal flow of the document. You're offsetting an element away from a given spot, which moves the element away from the referenced side (effectively, the opposite direction). As you saw in the last challenge, using the top offset moved the h2 downwards. Likewise, using a left offset moves an item to the right.
+
+Lock an Element to its Parent with Absolute Positioning
+
+  #searchbar {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+  }
+
+Lock an Element to the Browser Window with Fixed Positioning
+
+    One key difference between the fixed and absolute positions is that an element with a fixed position won't move when the user scrolls.
+
+  #navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #767676;
+  }
+
+Push Elements Left or Right with the float Property
+
