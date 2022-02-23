@@ -324,3 +324,22 @@ Use the CSS Transform Property skewY to Skew an Element Along the Y-Axis
     
 Create a Graphic Using CSS
 
+    By manipulating different selectors and properties, you can make interesting shapes. One of the easier ones to try is a crescent moon shape. For this challenge you need to work with the box-shadow property that sets the shadow of an element, along with the border-radius property that controls the roundness of the element's corners.
+
+Create a More Complex Shape Using CSS and HTML
+
+.heart::before {
+    content: "";
+    background-color: yellow;
+    border-radius: 25%;
+    position: absolute;
+    height: 50px;
+    width: 70px;
+    top: -50px;
+    left: 5px;
+}
+
+    For the ::before and ::after pseudo-elements to function properly, they must have a defined content property. This property is usually used to add things like a photo or text to the selected element. When the ::before and ::after pseudo-elements are used to make shapes, the content property is still required, but it's set to an empty string. In the above example, the element with the class of heart has a ::before pseudo-element that produces a yellow rectangle with height and width of 50px and 70px, respectively. This rectangle has round corners due to its 25% border-radius and is positioned absolutely at 5px from the left and 50px above the top of the element.
+
+Learn How the CSS @keyframes and animation Properties Work
+
