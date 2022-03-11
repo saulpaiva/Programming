@@ -125,4 +125,122 @@ Improve Form Field Accessibility with the label Element
 
 Wrap Radio Buttons in a fieldset Element for Better Accessibility
 
-    
+    The next form topic covers the accessibility of radio buttons. Each choice is given a label with a for attribute tying to the id of the corresponding item as covered in the last challenge. Since radio buttons often come in a group where the user must choose one, there's a way to semantically show the choices are part of a set.
+
+    The fieldset tag surrounds the entire grouping of radio buttons to achieve this. It often uses a legend tag to provide a description for the grouping, which screen readers read for each choice in the fieldset element.
+
+    The fieldset wrapper and legend tag are not necessary when the choices are self-explanatory, like a gender selection. Using a label with the for attribute for each radio button is sufficient.
+
+    Here's an example:
+
+    <form>
+    <fieldset>
+        <legend>Choose one of these three items:</legend>
+        <input id="one" type="radio" name="items" value="one">
+        <label for="one">Choice One</label><br>
+        <input id="two" type="radio" name="items" value="two">
+        <label for="two">Choice Two</label><br>
+        <input id="three" type="radio" name="items" value="three">
+        <label for="three">Choice Three</label>
+    </fieldset>
+    </form>
+
+The next form topic covers the accessibility of radio buttons. Each choice is given a label with a for attribute tying to the id of the corresponding item as covered in the last challenge. Since radio buttons often come in a group where the user must choose one, there's a way to semantically show the choices are part of a set.
+
+The fieldset tag surrounds the entire grouping of radio buttons to achieve this. It often uses a legend tag to provide a description for the grouping, which screen readers read for each choice in the fieldset element.
+
+The fieldset wrapper and legend tag are not necessary when the choices are self-explanatory, like a gender selection. Using a label with the for attribute for each radio button is sufficient.
+
+Here's an example:
+
+<form>
+  <fieldset>
+    <legend>Choose one of these three items:</legend>
+    <input id="one" type="radio" name="items" value="one">
+    <label for="one">Choice One</label><br>
+    <input id="two" type="radio" name="items" value="two">
+    <label for="two">Choice Two</label><br>
+    <input id="three" type="radio" name="items" value="three">
+    <label for="three">Choice Three</label>
+  </fieldset>
+</form>
+
+Add an Accessible Date Picker
+
+    Forms often include the input field, which can be used to create several different form controls. The type attribute on this element indicates what kind of input element will be created.
+
+    You may have noticed the text and submit input types in prior challenges, and HTML5 introduced an option to specify a date field. Depending on browser support, a date picker shows up in the input field when it's in focus, which makes filling in a form easier for all users.
+
+    For older browsers, the type will default to text, so it helps to show users the expected date format in the label or placeholder text just in case.
+
+    Here's an example:
+
+    <label for="input1">Enter a date:</label>
+    <input type="date" id="input1" name="input1">
+
+Standardize Times with the HTML5 datetime Attribute
+
+    Continuing with the date theme, HTML5 also introduced the time element along with a datetime attribute to standardize times. The time element is an inline element that can wrap a date or time on a page. A datetime attribute holds a valid format of that date. This is the value accessed by assistive devices. It helps avoid confusion by stating a standardized version of a time, even if it's informally or colloquially written in the text.
+
+    Here's an example:
+
+    <p>Master Camper Cat officiated the cage match between Goro and Scorpion <time datetime="2013-02-13">last Wednesday</time>, which ended in a draw.</p>
+
+Make Elements Only Visible to a Screen Reader by Using Custom CSS
+
+    Have you noticed that all of the applied accessibility challenges so far haven't used any CSS? This shows the importance of using a logical document outline and semantically meaningful tags around your content before introducing the visual design aspect.
+
+    However, CSS's magic can also improve accessibility on your page when you want to visually hide content meant only for screen readers. This happens when information is in a visual format (like a chart), but screen reader users need an alternative presentation (like a table) to access the data. CSS is used to position the screen reader-only elements off the visual area of the browser window.
+
+    Here's an example of the CSS rules that accomplish this:
+
+    .sr-only {
+    position: absolute;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+    top: auto;
+    overflow: hidden;
+    }
+
+    Note: The following CSS approaches will NOT do the same thing:
+
+    display: none; or visibility: hidden; hides content for everyone, including screen reader users
+    Zero values for pixel sizes, such as width: 0px; height: 0px; removes that element from the flow of your document, meaning screen readers will ignore it
+
+Improve Readability with High Contrast Text
+
+    Low contrast between the foreground and background colors can make text difficult to read. Sufficient contrast improves your content's readability, but what exactly does "sufficient" mean?
+
+    The Web Content Accessibility Guidelines (WCAG) recommend at least a 4.5 to 1 contrast ratio for normal text. The ratio is calculated by comparing the relative luminance values of two colors. This ranges from 1:1 for the same color, or no contrast, to 21:1 for white against black, the most substantial contrast. There are many contrast checking tools available online that calculate this ratio for you.
+
+Avoid Colorblindness Issues by Using Sufficient Contrast
+
+    Color is a large part of visual design, but its use introduces two accessibility issues. First, color alone should not be used as the only way to convey important information because screen reader users won't see it. Second, foreground and background colors need sufficient contrast so colorblind users can distinguish them.
+
+    Previous challenges covered having text alternatives to address the first issue. The last challenge introduced contrast checking tools to help with the second. The WCAG-recommended contrast ratio of 4.5:1 applies for color use as well as gray-scale combinations.
+
+    Colorblind users have trouble distinguishing some colors from others - usually in hue but sometimes lightness as well. You may recall the contrast ratio is calculated using the relative luminance (or lightness) values of the foreground and background colors.
+
+    In practice, the 4.5:1 contrast ratio can be reached by shading (adding black to) the darker color and tinting (adding white to) the lighter color. Darker shades on the color wheel are considered to be shades of blues, violets, magentas, and reds, whereas lighter tinted colors are oranges, yellows, greens, and blue-greens.
+
+    hsl() property (which stands for hue, saturation, lightness)
+
+Avoid Colorblindness Issues by Carefully Choosing Colors that Convey Information
+
+    There are various forms of colorblindness. These can range from a reduced sensitivity to a certain wavelength of light to the inability to see color at all. The most common form is a reduced sensitivity to detect greens.
+
+    For example, if two similar green colors are the foreground and background color of your content, a colorblind user may not be able to distinguish them. Close colors can be thought of as neighbors on the color wheel, and those combinations should be avoided when conveying important information.
+
+    Note: Some online color picking tools include visual simulations of how colors appear for different types of colorblindness. These are great resources in addition to online contrast checking calculators.
+
+Give Links Meaning by Using Descriptive Link Text
+
+    Screen reader users have various options for what type of content their device reads. These options include skipping to (or over) landmark elements, jumping to the main content, or getting a page summary from the headings. Another option is to only hear the links available on a page.
+
+    Screen readers do this by reading the link text, or what's between the anchor (a) tags. Having a list of "click here" or "read more" links isn't helpful. Instead, use brief but descriptive text within the a tags to provide more meaning for these users.
+
+    <a href="">more information about ...</a>
+
+Make Links Navigable with HTML Access Keys
+
