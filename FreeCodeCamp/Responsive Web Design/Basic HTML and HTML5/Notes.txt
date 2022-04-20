@@ -120,9 +120,56 @@ Link to Internal Sections of a Page with Anchor Elements
   <a href="#contacts-header">Contacts</a>
   ...
   <h2 id="contacts-header">Contacts</h2>
-  
+
   When users click the Contacts link, they'll be taken to the section of the webpage with the Contacts heading element.
 
+Nest an Anchor Element within a Paragraph
+
+  You can nest links within other text elements.
+
+  <p>
+    Here's a <a target="_blank" href="https://www.freecodecamp.org"> link to www.freecodecamp.org</a> for you to follow.
+  </p>
+
+  Let's break down the example. Normal text is wrapped in the p element:
+
+  <p> Here's a ... for you to follow. </p>
+  Next is the anchor element <a> (which requires a closing tag </a>):
+
+  <a> ... </a>
+
+  target is an anchor tag attribute that specifies where to open the link. The value _blank specifies to open the link in a new tab. The href is an anchor tag attribute that contains the URL address of the link:
+
+  <a href="https://www.freecodecamp.org" target="_blank"> ... </a>
+
+  The text, link to www.freecodecamp.org, within the a element is called anchor text, and will display the link to click:
+
+  <a href=" ... " target="...">link to freecodecamp.org</a>
+
+  The final output of the example will look like this:
+
+  Here's a link to www.freecodecamp.org for you to follow.
+
+Make Dead Links Using the Hash Symbol
+
+  Sometimes you want to add a elements to your website before you know where they will link.
+  
+  This is also handy when you're changing the behavior of a link using JavaScript, which we'll learn about later.
+
+  For example: href="#"
+  For example: href="#DeadLink"
+
+Turn an Image into a Link
+
+  You can make elements into links by nesting them within an a element.
+
+  Nest your image within an a element. Here's an example:
+
+  <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="Three kittens running towards the camera."></a>
+
+  Remember to use # as your a element's href property in order to turn it into a dead link.
+
+Create a Bulleted Unordered List
 
 
 
