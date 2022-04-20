@@ -1,4 +1,131 @@
-Personal annotations of the FreeCodeCamp course
+Say Hello to HTML Elements
+
+  Welcome to freeCodeCamp's HTML coding challenges. These will walk you through web development step-by-step.
+
+  First, you'll start by building a simple web page using HTML. You can edit code in your code editor, which is embedded into this web page.
+
+  Do you see the code in your code editor that says <h1>Hello</h1>? That's an HTML element.
+
+  Most HTML elements have an opening tag and a closing tag.
+
+  Opening tags look like this:
+
+  <h1>
+  Closing tags look like this:
+
+  </h1>
+  The only difference between opening and closing tags is the forward slash after the opening bracket of a closing tag.
+
+  Each challenge has tests you can run at any time by clicking the "Run tests" button. When you pass all tests, you'll be prompted to submit your solution and go to the next coding challenge.
+
+Headline with the h2 Element
+
+  Over the next few lessons, we'll build an HTML5 cat photo web app piece-by-piece.
+  
+  The h2 element you will be adding in this step will add a level two heading to the web page.
+  
+  This element tells the browser about the structure of your website. h1 elements are often used for main headings, while h2 elements are generally used for subheadings. There are also h3, h4, h5 and h6 elements to indicate different levels of subheadings.
+  
+Inform with the Paragraph Element
+
+  The p element is the preferred element for paragraph text on websites. p is short for "paragraph".
+  
+  You can create a paragraph element like this:
+  
+  <p>I'm a p tag!</p>
+
+  Note: As a convention, all HTML tags are written in lowercase, for example <p></p> and not <P></P>.
+
+Fill in the Blank with Placeholder Text
+
+  Web developers traditionally use lorem ipsum text as placeholder text. The lorem ipsum text is randomly scraped from a famous passage by Cicero of Ancient Rome.
+  
+  Lorem ipsum text has been used as placeholder text by typesetters since the 16th century, and this tradition continues on the web.
+  
+  Well, 5 centuries is long enough. Since we're building a CatPhotoApp, let's use something called "kitty ipsum" text:
+
+  Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.
+
+Uncomment HTML
+
+  Commenting is a way that you can leave comments for other developers within your code without affecting the resulting output that is displayed to the end user.
+  
+  Commenting is also a convenient way to make code inactive without having to delete it entirely.
+  
+  Comments in HTML start with <!-- and end with a -->
+
+Comment out HTML
+
+  Remember that in order to start a comment, you need to use <!-- and to end a comment, you need to use -->
+  
+  Here you'll need to end the comment before your h2 element begins.
+
+Delete HTML Elements
+
+  Our phone doesn't have much vertical space.
+  
+  Let's remove the unnecessary elements so we can start building our CatPhotoApp.
+
+Introduction to HTML5 Elements
+
+  HTML5 introduces more descriptive HTML tags. These include main, header, footer, nav, video, article, section and others.
+  
+  These tags give a descriptive structure to your HTML, make your HTML easier to read, and help with Search Engine Optimization (SEO) and accessibility. The main HTML5 tag helps search engines and other developers find the main content of your page.
+  
+  Example usage, a main element with two child elements nested inside it:
+  
+  <main> 
+    <h1>Hello World</h1>
+    <p>Hello Paragraph</p>
+  </main>
+
+  Note: Many of the new HTML5 tags and their benefits are covered in the Applied Accessibility section.
+
+Add Images to Your Website
+
+  You can add images to your website by using the img element, and point to a specific image's URL using the src attribute.
+
+  An example of this would be:
+
+  <img src="https://www.freecatphotoapp.com/your-image.jpg">
+  Note that img elements are self-closing.
+
+  All img elements must have an alt attribute. The text inside an alt attribute is used for screen readers to improve accessibility and is displayed if the image fails to load.
+
+  Note: If the image is purely decorative, using an empty alt attribute is a best practice.
+
+  Ideally the alt attribute should not contain special characters unless needed.
+
+  Let's add an alt attribute to our img example above:
+
+  <img src="https://www.freecatphotoapp.com/your-image.jpg" alt="A business cat wearing a necktie.">
+
+Link to External Pages with Anchor Elements
+
+  You can use a (anchor) elements to link to content outside of your web page.
+  
+  a elements need a destination web address called an href attribute. They also need anchor text. Here's an example:
+  
+  <a href="https://www.freecodecamp.org">this links to freecodecamp.org</a>
+  Then your browser will display the text this links to freecodecamp.org as a link you can click. And that link will take you to the web address https://www.freecodecamp.org.
+
+Link to Internal Sections of a Page with Anchor Elements
+
+  a (anchor) elements can also be used to create internal links to jump to different sections within a webpage.
+  
+  To create an internal link, you assign a link's href attribute to a hash symbol # plus the value of the id attribute for the element that you want to internally link to, usually further down the page. You then need to add the same id attribute to the element you are linking to. An id is an attribute that uniquely describes an element.
+  
+  Below is an example of an internal anchor link and its target element:
+  
+  <a href="#contacts-header">Contacts</a>
+  ...
+  <h2 id="contacts-header">Contacts</h2>
+  
+  When users click the Contacts link, they'll be taken to the section of the webpage with the Contacts heading element.
+
+
+
+
 
 Intro
 
