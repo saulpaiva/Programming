@@ -171,131 +171,43 @@ Turn an Image into a Link
 
 Create a Bulleted Unordered List
 
+  HTML has a special element for creating unordered lists, or bullet point style lists.
 
+  Unordered lists start with an opening <ul> element, followed by any number of <li> elements. Finally, unordered lists close with a </ul>.
 
+  For example:
 
-Intro
+  <ul>
+    <li>milk</li>
+    <li>cheese</li>
+  </ul>
 
-<h1> head </h1>
+  would create a bullet point style list of milk and cheese.
 
-h2 and so on are subheads
+Create an Ordered List
 
-<p> paragraph <p/>
+  HTML has another special element for creating ordered lists, or numbered lists.
 
-<!--
-comments
--->
+  Ordered lists start with an opening <ol> element, followed by any number of <li> elements. Finally, ordered lists are closed with the </ol> tag.
 
-<main> 
-  <h1>Hello World</h1>
-  <p>Hello Paragraph</p>
-</main>
+  For example:
 
-Add image and URL
+  <ol>
+    <li>Garfield</li>
+    <li>Sylvester</li>
+  </ol>
 
-<img src="https://www.freecatphotoapp.com/your-image.jpg">
+  would create a numbered list of Garfield and Sylvester.
 
-with alt atribute
+Create a Text Field
 
-<img src="https://www.freecatphotoapp.com/your-image.jpg" alt="A business cat wearing a necktie.">
+  Now let's create a web form.
+  
+  input elements are a convenient way to get input from your user.
+  
+  You can create a text input like this:
+  
+  <input type="text">
 
-Link to External Pages with Anchor Elements
+  Note that input elements are self-closing.
 
-<a href="https://www.freecodecamp.org">this links to freecodecamp.org</a>
-
-Internal link
-
-<a href="#footer">Jump to Bottom<a>
-<footnote id="footer">Copyright<footnote>
-
-Link within plain text
-
-<p>
-  Here's a <a target="_blank" href="https://www.freecodecamp.org"> link to www.freecodecamp.org</a> for you to follow.
-</p>
-
-Dead link
-
-<a target="_blank" href="#">
-
-Unordered lists
-
-<ul>
-  <li>milk</li>
-  <li>cheese</li>
-</ul>
-
-Ordered lists
-
-<ol>
-  <li>Garfield</li>
-  <li>Sylvester</li>
-</ol>
-
-Text input
-
-<input type="text">
-
-Placeholder text
-
-<input type="text" placeholder="this is placeholder text">
-
-<form action="/url-where-you-want-to-submit-form-data">
-  <input>
-</form>
-
-Submit button
-
-<button type="submit">this button submits the form</button>
-
-Require a Field
-
-<input type="text" required>
-
-Radio button
-
-<label> 
-  <input type="radio" name="indoor-outdoor">Indoor 
-</label>
-
-<input id="indoor" type="radio" name="indoor-outdoor">
-<label for="indoor">Indoor</label>
-
-Checkbox
-
-<label for="loving"><input id="loving" type="checkbox" name="personality"> Loving</label>
-
-Add Values to identify the data on server
-
-<label for="loving"><input id="loving" value="loving" type="checkbox" name="personality"> Loving</label>
-
-Check by default
-
-<input type="radio" name="test-name" checked>
-
-Divisor
-<div>
-    <p>
-    bla bla
-    </p>
-</div>
-
-Declarethe Doctype of an HTML Document
-
-<!DOCTYPE html>
-<html>
-
-</html>
-
-Define the Head and Body of an HTML Document
-
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta />
-  </head>
-  <body>
-    <div>
-    </div>
-  </body>
-</html>
