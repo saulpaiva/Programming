@@ -33,6 +33,10 @@ Bibliografia recomendada
 
 - Série de livros da O'REILLY [HTML5 Up and Running, CSS The definitive Guide, Flexbox in CSS, Grid Layout in CSS]
 
-- Livros [HTML5 e CSS3, HTML&CSS, HTML e CSS, Crie seu Próprio Site]
+- Livros bonitos e úteis [HTML5 e CSS3, HTML&CSS, HTML e CSS, Crie seu Próprio Site]
 
-Livros []
+- Livros do Maujor para aprender HTML e CSS [Livros de Maurício Samy Silva, editora Novatec]
+
+- Livros para aprender design [Curso de Design Gráfico, A Psicologia das cores, O Essencial do Design Gráfico, Pensar com Tipos]
+
+- Outros livros importantes [Flexbox Explained, CSS Grid Explained, Smashing HTML5, Smashing CSS]
