@@ -22,3 +22,17 @@ Repositórios Públicos:
 - https://github.com/gustavoguanabara
 - gustavoguanabara.github.io
 
+Bibliografia recomendada
+
+- Material de apoio [https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf]
+
+- Referência MDN [https://developer.mozilla.org/en-US/docs/Web]
+- W3C Standards [https://www.w3.org/standards/]
+- WHATWG Living Standard [https://html.spec.whatwg.org/multipage/]
+- W3Schools [https://www.w3schools.com/]
+
+- Série de livros da O'REILLY [HTML5 Up and Running, CSS The definitive Guide, Flexbox in CSS, Grid Layout in CSS]
+
+- Livros [HTML5 e CSS3, HTML&CSS, HTML e CSS, Crie seu Próprio Site]
+
+Livros []
