@@ -1,0 +1,9 @@
+# clona um repositório para a máquina local (abrir o local desejado com o Git Bash)
+git clone [endereço do repositório]
+
+# verifica mudanças
+git status
+
+# adiciona todos os arquivos que tiveram mudanças locais ao "track" para serem  commitados posteriormente ao GitHub
+git add .
+
