@@ -40,3 +40,11 @@ Bibliografia recomendada
 - Livros para aprender design [Curso de Design Gráfico, A Psicologia das cores, O Essencial do Design Gráfico, Pensar com Tipos]
 
 - Outros livros importantes [Flexbox Explained, CSS Grid Explained, Smashing HTML5, Smashing CSS]
+
+Como a internet chega na minha casa?
+
+- TCP/IP
+- www.submarinecablemap.com
+- How does the internet work? [https://youtu.be/TNQsmPf24go]
+
+
