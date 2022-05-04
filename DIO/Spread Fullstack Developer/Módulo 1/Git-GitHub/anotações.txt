@@ -16,3 +16,5 @@ git commit -m "mensagem"
 git push origin main
 
 - Desafio de projeto
+
+Criar um repositório pessoal no Gitub, clonar localmente e depois sincronizar as mudanças locais para a nuvem (GitHub)
