@@ -10,3 +10,5 @@ git add .
 # commita as mudanças locais e adiciona uma mensagem (-m)
 git commit -m "mensagem"
 
+# publica as udanças locais para a nuvem
+git push origin main
