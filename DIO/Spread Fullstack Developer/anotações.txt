@@ -7,3 +7,6 @@ git status
 # adiciona todos os arquivos que tiveram mudanças locais ao "track" para serem  commitados posteriormente ao GitHub
 git add .
 
+# commita as mudanças locais e adiciona uma mensagem (-m)
+git commit -m "mensagem"
+
