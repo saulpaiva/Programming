@@ -1,4 +1,6 @@
-- O que é Internet
+@ O que é Internet
+
+- Introdução ao tema
 
 # História
 
@@ -91,7 +93,27 @@ afk (Away From Keyboard)
 tankar (1 - [Games] Aguentar muito dano em jogos. 2 - Não conseguir se segurar sobre certa coisa.)
 flop (Flop pode ser usado quando uma coisa não teve sucesso. Quando ela foi ruim, quase ninguém gostou. Ou quando alguém só fala ou escreve coisas inúteis, sem grande significado, como carinhas, emoticons, spams, etc.)
 
+[dicionarioinformal.com.br]
+
 - A Internet atualmente
 
 134 milhões de brasileiros têm acesso à Internet
+
+# Exercício final
+
+Na sua vida pessoal, houve alguma mudança em relação ao acesso à internet e ao consumo de dados online? Por exemplo: vídeos, jogos, música, troca de mensagens, compras, alimentação, notícias, cursos...
+
+"A partir do início da pandemia eu comecei a fazer mais compras online, ir mais atrás de cursos online, usar mais o twitter para saber de notícias, e até jogar mais ocasionalmente jogos online"
+
+@ Como funciona a Internet
+
+- Objetivos da aula
+
+1. Redes
+2. Backbone
+3. Provedor de acesso
+4. Provedor de serviço
+5. Usuário final
+
+- O que são redes
 
