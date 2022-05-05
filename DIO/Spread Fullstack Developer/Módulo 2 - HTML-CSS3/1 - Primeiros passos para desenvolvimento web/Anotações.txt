@@ -1,0 +1,97 @@
+- O que é Internet
+
+# História
+
+1969 - EUA, Arpanet (Departament de Defesa, guerra fria, interigar laboratórios, primeiro e-mail)
+1982 - Universidades, Holanda, Dinamarca e Suécia
+1987 - Liberado o uso comercial ons EUA
+1992 - CERN cria a World Wide Web (Dados acessíveis a qualquer pessoa com acesso à Internet)
+
+# No Brasil
+
+1988 - Fapesp, UFRJ, LNCC
+1994 - Uso comercial (EMBRATEL)
+2000 - Banda Larga
+
+# Exercício final
+
+Qual foi o primeiro domínio criado?
+
+"Em 1984, foram estabelecidos os sete primeiros domínios de primeiro nível (TLDs), que são as terminações dos endereços web, como “.com”, “.net” ou “.org”. O primeiro domínio registrado foi o symbolics.com, em 1985, por uma fabricante de computadores em Massachusetts, nos Estados Unidos.
+
+Nessa época, qualquer um poderia registrar um domínio gratuitamente. Só a partir de 1995 esse procedimento se tornou pago. A empresa de consultoria tecnológica Network Solutions foi a primeira com a habilidade cobrar pelos registros."
+
+[https://www.techtudo.com.br/noticias/2018/07/a-historia-dos-dominios-de-internet.ghtml]
+
+E o primeiro blog?
+
+"Coincidência ou não, o primeiro blog da internet foi criado por um brasileiro.
+
+Em 1994, o cientista do MIT Media Lab, Claudio Pinhanez, criou um site chamado “Open Diary” — e isso explica muita coisa sobre a nossa percepção atual desse canal — com o objetivo de contar um pouco sobre a sua vida."
+
+[https://rockcontent.com/br/blog/historia-dos-blogs/#:~:text=Os%20primeiros%20blogs,pouco%20sobre%20a%20sua%20vida.]
+
+Qual foi a primeira compra feita pela Internet?
+
+"Mas afinal o que é que foi vendido pela primeira vez na internet? Um CD de Sting (Ten Summoner's Tales). A transação ocorreu a 11 de agosto de 1994 e foi feita através de uma tecnologia que permitiu encriptar os dados do cartão de crédito. O CD custou 12,48 dólares, mais os custos de envio."
+
+[https://www.dn.pt/sociedade/sabe-qual-foi-a-primeira-venda-online-4908976.html#:~:text=Mas%20afinal%20o%20que%20%C3%A9,mais%20os%20custos%20de%20envio.]
+
+Qual o site mais antigo em atividade?
+
+[https://symbolics.com/]
+
+- Termos-chave
+
+download/upload
+navegador/browser
+banda Larga
+cache
+crack
+email
+emoticons/emoji
+gif/jpg/png
+host
+HTML
+HTTP
+ícone
+link
+login/logon
+logout/logoff
+mp3
+multimídia
+nick
+online/offline
+pixel
+spam
+URL
+vírus
+backup
+blog
+(cyber)bullyng
+3G/4G/5G
+cookies
+firewall
+hacker
+IP
+keylogger
+phishing
+click bait
+fake news
+podcast
+vlog
+pop-up
+youtuber
+
+# Exercício final
+
+Você conhecd algum termo que não foi abordado aqui? Alguma gíria, alguma palavra, expressão ou sigla utilizada na internet, nos bate-papos, em jogos online?
+
+afk (Away From Keyboard)
+tankar (1 - [Games] Aguentar muito dano em jogos. 2 - Não conseguir se segurar sobre certa coisa.)
+flop (Flop pode ser usado quando uma coisa não teve sucesso. Quando ela foi ruim, quase ninguém gostou. Ou quando alguém só fala ou escreve coisas inúteis, sem grande significado, como carinhas, emoticons, spams, etc.)
+
+- A Internet atualmente
+
+134 milhões de brasileiros têm acesso à Internet
+
