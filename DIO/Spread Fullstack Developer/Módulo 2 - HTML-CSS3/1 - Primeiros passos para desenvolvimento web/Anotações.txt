@@ -117,3 +117,102 @@ Na sua vida pessoal, houve alguma mudança em relação ao acesso à internet e 
 
 - O que são redes
 
+www
+DNS
+IP
+Classes de redes
+127.0.0.1 (localhost)
+
+# Exercício final
+
+Use o terminal de comandos para descobrir o endereço de sites famosos
+
+No Windows:
+1. Aperte as teclas SUPER + R
+2. Digite cmd e aperte ENTER
+3. Na terminal, digite ping + "endereço do site"
+
+Google:
+
+(www.google.com)[2800:3f0:4001:823::2004]
+
+@ TCP/IP, portas, roteadores, switches e modems
+
+- Objetivos da aula
+
+1. TCP/IP 
+2. Portas
+3. Roteadores, switches e modems
+
+- TCP/IP e UDP
+
+TCP: Transmission Control Protocol
+IP: Internet Protocol
+
+Camadas:
+
+1. Física (placa de rede)
+2. Rede (IP)
+3. Transporte (TCP, UDP)
+4. Aplicação (FTP, SMTP, HTTP)
+
+UDP:
+
+rápido
+não confiável
+"carro do ovo"
+livestream
+
+TCP:
+
+um pouco mais lento
+voltado à conexão
+handshake
+integridade, ordem dos dados
+aplicativo de mensagens de texto
+
+- Portas (ports)
+
+20: FTP
+22: SSH
+25: SMTP
+53: DNS
+80: HTTP
+443: HTTPS
+
+- Roteadores, switches e modems
+
+Modem:
+
+Modulator-demodulator;
+Hardware que converte dados em um formato que possa ser transmitido e lido de um computador para o outro;
+
+Roteador:
+
+Distribui internet para um ou mais dispositivos de uma rede;
+Pode fazer a comunicação entreredes;
+Pode ser "burro";
+
+Switch:
+
+Distribui internet (inteligentemente ou sob demanda) para um ou mais dispositivos de um a rede;
+Criado para ser "inteligente";
+
+# Exercício final
+
+O gmail costuma usar portas próprias, que não são as padrões de SMTP e POP3. Tente descobrir quais são elas.
+
+"Incoming connections to the IMAP server at imap.gmail.com:993 and the POP server at pop.gmail.com:995 require SSL. The outgoing SMTP server, smtp.gmail.com, requires TLS. Use port 465, or port 587 if your client begins with plain text before issuing the STARTTLS command."
+
+[https://developers.google.com/gmail/imap/imap-smtp#:~:text=Incoming%20connections%20to%20the%20IMAP,before%20issuing%20the%20STARTTLS%20command.]
+
+O programador que trabalha com a Internet costuma usar bancos de dados, como o MySQL e, claro, servidor web como o Apache. Que tal você se adiantar e já descobrir quais são as portas usadas por estes sistemas?
+
+"Port 3306 is the default port for the classic MySQL protocol (port), which is used by the mysql client, MySQL Connectors, and utilities such as mysqldump and mysqlpump."
+
+[https://dev.mysql.com/doc/mysql-port-reference/en/mysql-ports-reference-tables.html#:~:text=Port%203306%20is%20the%20default,such%20as%20mysqldump%20and%20mysqlpump.]
+
+"By default, Apache web server is instructed to listen for incoming connection and bind on port 80. If you opt for the TLS configuration, the server will listen for secure connections on port 443."
+
+[https://www.tecmint.com/change-apache-port-in-linux/#:~:text=By%20default%2C%20Apache%20web%20server,secure%20connections%20on%20port%20443.]
+
