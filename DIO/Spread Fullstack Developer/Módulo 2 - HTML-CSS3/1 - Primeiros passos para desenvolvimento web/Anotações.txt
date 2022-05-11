@@ -216,3 +216,34 @@ O programador que trabalha com a Internet costuma usar bancos de dados, como o M
 
 [https://www.tecmint.com/change-apache-port-in-linux/#:~:text=By%20default%2C%20Apache%20web%20server,secure%20connections%20on%20port%20443.]
 
+@ Celular, internet e outros dispositivos
+
+- Objetivos da aula
+
+1. Dados móveis
+2. Wi-fi
+3. Bluetooth
+
+- Dados móveis
+
+SMS (custo zero para as operadoras)
+MMS (áudio, vídeo)
+Conexões móveis
+    1G (Analógico, 10 Kbps)
+    2G (GSM)
+    GPRS ("2.5G")
+    EDGE ("2.75G")
+    3G (7Mbps)
+    4G (22.1 Mbps)
+    5G (10 Gbps)
+
+- Wi-fi
+
+Empresa IEEE (padrões para wi-fi)
+
+Segurança
+    WEP (Chaves de 64 bits e de 128 bits)
+    WPA (chave trocada periodicamente)
+    WPA2 (AES) (802.11I) (Mais seguraça, mais processamento)
+
+Dispositivos na rede
