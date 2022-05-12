@@ -244,6 +244,8 @@ Empresa IEEE (padrões para wi-fi)
 Segurança
     WEP (Chaves de 64 bits e de 128 bits)
     WPA (chave trocada periodicamente)
-    WPA2 (AES) (802.11I) (Mais seguraça, mais processamento)
+    WPA2 (AES) (802.11I) (Mais segurança, mais processamento)
 
 Dispositivos na rede
+
+- Stacks
