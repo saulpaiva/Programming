@@ -247,3 +247,68 @@ Segurança
     WPA2 (AES) (802.11I) (Mais seguraça, mais processamento)
 
 Dispositivos na rede
+    Impressoras
+    Chromecast
+    IoT
+
+- Bluetooth
+
+Conexão ponto-a-ponto
+    Versão 5.0 : 50 Mbps
+
+# Exercício final:
+
+Na sua vida pessoal, houve alguma mudança em relação ao acesso à internet e ao consumo de dados online? Por exemplo: vídeos, jogos, música, troca de mensagens, compras, alimentação, notícias, cursos...
+
+Aparentemente, a velocidade de conexão da internet e de dispositivos sem fio aumentou consideravelmente.
+
+@ Browser, sites, aplicativos e webserver
+
+- Objetivos da aula
+
+1. O que é um browser e como ele interpreta a Internet
+2. O que é um site, aplicativo, e-commerce
+3. O que é um web-server e onde encontrá-localhost
+
+- Browser
+
+Sabe identificar várias LP (linguagem de programação), linguagens de marcação e conteúdo multimedia
+
+Plug-ins ou add-ons que ajudam na navegação
+
+Possui cache e cookies
+
+Página estática vs dinâmica
+    Exemplo de página dinâmica: YouTube
+
+# Exercício final
+
+Entre no site http://archive.org/web/
+Pesquise como eram antigamente os sites mais famosos de hoje em dia
+
+- Site, aplicativo, e-commerce
+
+Site
+    Página da Internet
+    Diversos propósitos
+    Podem ser feitas em diversas LP
+    D/XHTML caindo em desuso
+
+Aplicativo
+    Um software que é executado no navegador
+    Terminologia entre site, programa, software e aplicativo já quase não existe diferença (ganhando o mesmo significado)
+
+E-commerce
+    Comércio eletrônico
+    Site de compra e venda com sistema de pagamento
+    Sistema de pagamento pode ser exterior ao site
+
+# Exercício final
+
+Boleto só existe no Brasil?
+Débito é uma invenção brasileira?
+Sites hoje em dia usam mais sistemas próprios de pagamento ou terceirizados?
+Faça uma busca pelo Google e verifique se aparece mais resultados que são sites, programas ou aplicativos.
+
+- Web-server
+
