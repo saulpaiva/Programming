@@ -312,5 +312,7 @@ Faça uma busca pelo Google e verifique se aparece mais resultados que são site
 
 - Web-server
 
-
 - Stacks
+
+- Frotend/Backend/Fullstack
+
