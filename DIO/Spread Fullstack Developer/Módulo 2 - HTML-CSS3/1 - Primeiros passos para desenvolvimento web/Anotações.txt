@@ -316,3 +316,36 @@ Faça uma busca pelo Google e verifique se aparece mais resultados que são site
 
 - Frotend/Backend/Fullstack
 
+- Principais Linguagens
+
+HTML
+CSS
+JavaScript (jQuery, AJAX, diversas Libs)
+PHP
+.NET
+ASP
+Java
+Ruby (on Rails)
+Python
+Perl
+C/C++/C#
+
+- Termos comuns
+
+@ Construindo a primeira Aplicação
+
+- Aula Prática
+
+XAMPP
+
+(No Windows instalar em Local Disk (C:) )
+
+Configurar o Apache modificando o documentroot e escolher a pasta/caminho desejado
+
+Start
+
+Criar o aquivo usando o Notepad++
+
+(6:32)
+
+
