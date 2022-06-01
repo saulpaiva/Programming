@@ -342,9 +342,11 @@ XAMPP
 
 Configurar o Apache modificando o documentroot e escolher a pasta/caminho desejado
 
-Start
+Start no módulo Apache
 
 Criar o aquivo usando o Notepad++
 
-Abrir um navegador e digitar localhost
+Abrir um navegador e digitar localhost (ou localhost/index.php)
+
+[w3schools.com]
 

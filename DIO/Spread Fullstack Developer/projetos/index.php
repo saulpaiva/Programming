@@ -5,11 +5,13 @@
     </head>
 
     <body>
+
         <?php
             for ( $i = 10 ; $i < 10 ; $i++ ) {
                 print("Linha número " . $i . "<br />");
             }
         ?>
+
     </body>
 	
 </html>
