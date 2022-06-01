@@ -346,5 +346,5 @@ Start
 
 Criar o aquivo usando o Notepad++
 
-(6:32)
+Abrir um navegador e digitar localhost
 
