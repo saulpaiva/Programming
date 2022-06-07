@@ -13,3 +13,6 @@ Estrutura Básica
 
 Dummy text: [https://www.lipsum.com/feed/html]
 
+Free Images: [unsplash.com]
+
+Smart PNG and JPEG compression [tinypng.com]
