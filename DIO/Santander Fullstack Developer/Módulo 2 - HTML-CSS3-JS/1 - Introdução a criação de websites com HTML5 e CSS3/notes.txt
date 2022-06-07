@@ -1,0 +1,13 @@
+Estrutura Básica
+
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Saul Paiva</title>
+    </head>
+    <body>
+        Saul Paiva
+    </body>
+</html>
+
