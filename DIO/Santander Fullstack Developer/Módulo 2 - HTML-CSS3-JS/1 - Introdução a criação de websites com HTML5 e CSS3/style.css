@@ -1,19 +1,43 @@
 body {
-    background: #ccc;
+    background: #f7f7f7;
+}
+
+.photo {
+    border: 1px solid #505050;
+    border-radius: 50%;
 }
 
 #title, .subtitle, .post_title {
-    color: darkblue;
+    color: #505050;
 }
 
 .post_title {
     font-size: 16px;
     font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
 }
 
 .post {
     background: #FFF;
-    padding: 10px;
-    border: 3px solid #000;
-    margin: 10px;
+    /* background-color: bisque;
+    background-image: linear-gradient(#e66465, #9198e5);
+    background-image: url();
+    background-position: top; */
+    padding: 15px;
+    /* padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px; */
+    border: 3px solid #505050;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.post_content {
+    margin: 0;
+    margin-bottom: 15px;
+}
+.post_image {
+    margin-bottom: 15px;
 }
