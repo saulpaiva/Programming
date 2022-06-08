@@ -1,4 +1,5 @@
 Extensions for vscode:
 
 - html snippets
-- live html previewer
+- live server
+- live server preview
