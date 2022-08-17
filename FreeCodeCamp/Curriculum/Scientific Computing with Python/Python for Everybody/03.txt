@@ -2,12 +2,13 @@
 
 """
 Operator    Operation
-+   addition
--   subtraction
-*   multiplication
-/   division
-**  power
-%   remainder (modular op.)
+
+    +       addition
+    -       subtraction
+    *       multiplication
+    /       division
+    **      power
+    %       remainder (modular op.)
 """
 
 """

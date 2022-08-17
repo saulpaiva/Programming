@@ -3,4 +3,4 @@ Hardware Architecture
 - RaspiberryPi
 
 - Generic Computer
-    Input and Output device - Software [Ceenntral processing unit - Main memory] - Secondary memory
+    Input and Output device - Software [Central processing unit - Main memory] - Secondary memory
