@@ -1,0 +1,13 @@
+$ Download R
+
+- r-project.org
+
+$ Download RStudio
+
+- rstudio.com
+
+$ Packages
+
+- CRAN (Comprehensive R Archive Network)
+- Crantastic!
+- GitHub
