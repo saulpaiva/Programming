@@ -9,5 +9,39 @@ $ Download RStudio
 $ Packages
 
 - CRAN (Comprehensive R Archive Network)
+
+cran.r-project.org
+(task views)
+
 - Crantastic!
+
+crantastic.org
+
 - GitHub
+
+github.com/trending/r
+
+-- Most common packages
+
+dplyr
+tidyr
+stringr
+lubridate
+httr
+ggvis
+ggplot2
+shiny
+rio
+& rmarkcown
+
+-- One package to load them all (pacman)
+
+install.packages("pacman")
+
+$ Basic graphics
+
+plot()
+
+gets help
+
+?plot 
