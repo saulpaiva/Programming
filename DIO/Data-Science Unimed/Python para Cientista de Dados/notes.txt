@@ -1,0 +1,9 @@
+Extensões no VSCode:
+
+- Python
+- autoDocstring - Python Docstring Generator
+- Visual Studio IntelliCode
+
+Tema no VSCode:
+
+- Identical Sublime Text Monokai theme
