@@ -17,10 +17,18 @@ python -i nome_do_programa.py
 
 # Comandos úteis
 
-#lista de métodos que podemos executar do objeto
+- lista de métodos que podemos executar do objeto
 dir()
-#sistema de ajuda integrado; para sair tecle 'f' ou 'q', em seguida de ENTER
+
+- sistema de ajuda integrado; para sair tecle 'f' ou 'q', em seguida de ENTER
 help()
-#limpar terminal
+
+- limpar terminal
 ctrl + l
+
+# Boas práticas em Python
+
+- padrão de nomes snake case (underline no lugar dos espaços entre as palavras)
+- escolher nomes sugestivos
+- nome de constantes todo em maiúsculo
 
