@@ -15,3 +15,12 @@ Python:
 python
 python -i nome_do_programa.py
 
+# Comandos úteis
+
+#lista de métodos que podemos executar do objeto
+dir()
+#sistema de ajuda integrado; para sair tecle 'f' ou 'q', em seguida de ENTER
+help()
+#limpar terminal
+ctrl + l
+
