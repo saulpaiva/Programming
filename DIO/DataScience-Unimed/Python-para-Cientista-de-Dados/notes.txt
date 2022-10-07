@@ -7,3 +7,11 @@ Extensões no VSCode:
 Tema no VSCode:
 
 - Identical Sublime Text Monokai theme
+
+Python:
+
+- Iniciar o modo interativo
+
+python
+python -i nome_do_programa.py
+
