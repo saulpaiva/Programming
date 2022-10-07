@@ -9,5 +9,8 @@
             "front_matter_title": ""
         }
     },
-    "jupyter.jupyterServerType": "local"
+    "jupyter.jupyterServerType": "local",
+    "cSpell.words": [
+        "preco"
+    ]
 }
