@@ -1,0 +1,22 @@
+# Sugestão de editor online
+
+- codepen.io
+- codesandbox.io
+
+# Instalar no Windows
+
+- Chrome/Edge
+- VSCode
+- NodeJS
+
+# Instalar no Linux
+
+- Chrome/Edge
+- VSCode
+- NodeJS
+
+# Instalar no MAC
+
+- Chrome
+- VSCode
+
