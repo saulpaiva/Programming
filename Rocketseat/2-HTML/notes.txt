@@ -7,3 +7,6 @@ Comentários em HTML
 
 Ver mais atributos:
 developer.mozilla.org
+
+Alt + z
+Alterna o modo de "wrapping"
