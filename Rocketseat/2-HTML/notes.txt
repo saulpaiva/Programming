@@ -1,2 +1,9 @@
 HTML
 Hyper Text Markup Language
+
+Comentários em HTML
+<!-- comments -->
+
+
+Ver mais atributos:
+developer.mozilla.org
