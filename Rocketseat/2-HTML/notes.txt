@@ -9,4 +9,4 @@ Ver mais atributos:
 developer.mozilla.org
 
 Alt + z
-Alterna o modo de "wrapping"
+Alterna o modo de "wrapping" no VScode
