@@ -15,3 +15,41 @@ Conecta um elemento HTML com o CSS
 - ID Selector "#box, #container"
 - Class Selector ".red, .m-4"
 - Attribute selector, Pseudo-class, Pseudo-element, e outros
+
+### Origem do estilo
+
+inline > tag style > tag link
+
+### At-rules
+
+@import serve para incluir um CSS externo.
+
+@media são regras condicionais para vários dispositivos.
+
+@font-face é para colocar fontes externas.
+
+@keyframes serve para as animations do CSS.
+
+### Dev-tools
+
+press F12 in the browser
+
+### Vendor Prefixes
+
+São coisas que permitem que browsers adiocionem features a fim de colocar em uso alguma novidade que vemos no CSS.
+
+Exemplos:
+
+p {
+	-webkit-background-clip: text; /*Chrome, Safari, iOS e Android*/
+	-moz-background-clip: text; /* Mozilla (Firefox) */
+	-ms-background-clip: text; /* Internet Explorer ou Edge*/
+	-o-background-clip: text; /* Opera */
+}
+
+Você também pode consultar se a feature pode ser utilizada através dos sites:
+
+https://ireade.github.io/which-vendor-prefix
+
+https://caniuse.com
+
