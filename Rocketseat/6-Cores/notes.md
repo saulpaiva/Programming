@@ -69,3 +69,74 @@ color: unset; /* Pega a cor do contexto */
 
 - https://convertacolor.com
 
+## Background
+
+- Para adicionar uma imagem como background podemos usar a propriedade background-image
+
+- Por padrão a imagem vai se repetir e podemos modificar essa opção usando a propriedade background-repeat
+
+```css
+/* Values */
+
+background-repeat: repeat-x;
+background-repeat: repeat-y;
+background-repeat: repeat;
+background-repeat: space;
+background-repeat: round;
+background-repeat: no-repeat;
+
+/* Podedmos usar 2 valores: horizontal | vertical */
+
+background-repeat: repeat space;
+background-repeat: repeat repeat;
+background-repeat: round space;
+background-repeat: no-repeat round;
+```
+
+- A propriedade background-origin é quem define o ponto de origem de uma imagem específica.
+
+```css
+/* Principais valores */
+
+background-origin: border-box;
+background-origin: padding-box;
+background-origin: content-box;
+```
+
+- O background-clip define se a cor ou imagem do background iniciam debaixo de sua área de borda, preenchimento ou conteúdo.
+
+```css
+/* Principais valores */
+
+background-clip: border-box;
+background-clip: padding-box;
+background-clip: content-box;
+background-clip: text;
+```
+
+- A propriedade background-attachment determina se a posição da imagem vai ser fixa ou se vai rolar junto com o conteúdo.
+
+```css
+/* Principais valores */
+
+background-attachment: scroll;
+background-attachment: fixed;
+background-attachment: local;
+```
+
+## Gradient
+
+- linear-gradient() é a função usada para criar gradient linear com o CSS.
+
+```css
+background: linear-gradient(45deg, red, yellow)
+```
+
+- radial-gradient() é a função usada para criar gradient circular.
+
+```css
+background: radial-gradient(green, red, yellow)
+background: radial-gradient(rgba(255, 255, 255, 0), rgba(255, 0, 0, 0.2))
+```
+
+- Podemos aplicar múltiplos backgrounds em um mesmo elemento, podendo ter cor sólida, gradiente ou imagem. Para isso basta separar por vírgula cada background.
