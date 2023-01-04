@@ -64,8 +64,19 @@ placeholder="Escolha uma fruta">
 <p>text</p>
 <input type="text">
 
+<!-- Fique de olho em https://caniuse.com -->
+
 <p>date</p>
-<input type="date">
+
+<!-- yyyy-mm-dd -->
+
+<input type="date" value="2023-01-04">
+<!-- <input type="datetime"> -->
+<input type="datetime-local">
+<input type="month">
+<input type="time">
+<input type="week">
+
 
 <p>number</p>
 <input type="number">
@@ -179,6 +190,37 @@ autocomplete="new-password">
         </optgroup>
     </select>
 </label>
+
+<p>search</p>
+
+<datalist id="searchterms">
+    <option value="">Mac</option>
+    <option value="">Windows</option>
+    <option value="">Linux</option>
+</datalist>
+
+<form action="">
+    <label for="">Pesquisar</label>
+    <input type="search" name="q" id="" list="searchterms"
+    placeholder="Digite o termo de busca: "
+    size="28"
+    aria-label="Campo de pesquisa: Digite seu termo de busca"
+    pattern="text"
+    title="Digite apenas texto">
+    <button>Pesquisar</button>
+</form>
+
+<p>number</p>
+
+<form action="">
+    <input type="number" min="1" max="100" step="1">
+
+    <button type="submit">Enviar</button>
+</form>
+
+<p>range</p>
+
+<input type="range" min="0" max="100" step="10" value="30">
 
 </body>
 </html>
