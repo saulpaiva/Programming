@@ -1,0 +1,14 @@
+<!-- Notas retiradas do site https://rocketseat.com.br -->
+
+# JavaScript
+
+Neste curso vamos falar sobre o JavaScript Core, que é o JavaScript puro, sem nenhum framework. JavaScript é uma linguagem de programação que roda no navegador do usuário, e pode rodar no computador com algumas aplicações que serão citadas em seguida no curso. Com o JavaScript podemos criar aplicações web, mobile com React Native, e desktop com Electron. Neste curso vamos entender conceitos e fundamentos, praticaremos eles e depois revisaremos.
+
+## Maneiras de executar o JavaScript
+
+
+Nesta aula vamos citar 3 maneiras de executar códigos em JavaScript, a primeira maneira é pelo navegador, clicando na tecla F12 em qualquer website o menu do DevTools, que são ferramentas para desenvolvedores, na aba console podemos executar código JavaScript. A segunda forma é pela aplicação web CodePen, abrindo o endereço codepen.io/pen você encontra um ambiente que se pode utilizar codigo HTML, CSS e JavaScript. Também pode-se usar o Visual Studio Code, criando um arquivo HTML com a tag < script > e colocando o código dentro.
+
+## Comentários
+
+Para comentar seu código no Javascript, pode se usar // antes da linha, para definir aquela linha inteira, para comentar mais de uma linha, pode se usar um /* no começo do comentário e um */ no final. Comentários não são executados, mas são mostrados para quem visualiza o código.
