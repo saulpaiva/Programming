@@ -1,4 +1,4 @@
-## Criação de um formulário de contato
+## Criação de um formulário de contato usando apenas HTML
 
 1. O formulário deverá conter um título de nome Contato. Usar fieldset e legend para essa finalidade
 

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en,pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de contato</title>
+
+</head>
+<body>
+    
+    <form action="url(https://mailto:saulpaiva@gmail.com)" method="post" enctype="text/plain">
+
+        <fieldset aria-label="Formulário para contato">
+            
+            <legend><strong>Contato</strong></legend>
+    
+
+                <label for="name">Nome:</label>
+                <br>
+                <input type="text" 
+                name="Nome do usuário" 
+                id="name" 
+                placeholder="Digite seu nome..."
+                autocomplete="name" 
+                required>
+                <br>
+                <br>    
+
+                <label for="email">Email:</label>
+                <br>
+                <input type="email" 
+                name="Email do usuário" 
+                id="email" 
+                placeholder="Insira seu email..." 
+                autocomplete="email"
+                required>
+                <br>
+                <br>
+
+                <label for="message">Mensagem:</label>
+                <br>
+                <textarea name="Mensagem do usuário" 
+                id="message" 
+                cols="30" 
+                rows="10" 
+                placeholder="Diga algo sobre você..."
+                autocomplete="work"></textarea>
+                <br>
+                <br>
+           
+            <button type="submit">Enviar</button>
+    
+        </fieldset>
+
+    </form>
+
+</body>
+</html>
