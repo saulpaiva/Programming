@@ -7,9 +7,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms</title>
+
+    <style>
+        p {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        h2 {
+            text-decoration:underline dashed blue;
+        }
+    </style>
+
 </head>
 <body>
     
+    <h2>Exemplos de forms</h2>
 
     <form action="">
         <fieldset disabled>
@@ -46,12 +59,126 @@ placeholder="Escolha uma fruta">
     <option value="grape">Grape</option>
 </datalist>
 
+<h2>Exemplos de input</h2>
+
+<p>text</p>
+<input type="text">
+
+<p>date</p>
+<input type="date">
+
+<p>number</p>
+<input type="number">
+
+<p>email</p>
+<input type="email"
+value="saulpaiva@gmail.com"
+multiple>
+
+<!-- multiple: permite vário emails separados por vírgula -->
+
+<p>file</p>
+
+<form action="" method="post" enctype="multipart/form-data"> 
+    <input type="file" accept=".doc, .pdf, .js, image/*, video/*" multiple>
+</form>
 
 
+<p>password</p>
+<input type="password"
+minlength="4"
+maxlength="10"
+size="15"
+pattern="[0-9a-fA-F]{4,8}"
+title="Coloque HEX no mínimo 4 e no máximo 8"
+placeholder="Coloque sua senha"
+required
+imputmode="numeric"
+autocomplete="new-password">
 
 
+<p>url</p>
+<form action="">
+    <input type="url"
+    placeholder="https://example.com"
+    spellcheck="false"
+    >
+    <button type="submit">Enviar</button>
+</form>
 
+<p>color</p>
 
+<datalist id="colorsdata">
+    <option>#ff0000</option>
+    <option>#00ff00</option>
+    <option>#0000ff</option>
+</datalist>
+
+<form action="">
+    <input type="color" value="#255575" list="colorsdata">
+</form>
+
+<p>checkbox</p>
+
+<form action="">
+    <label for="subscribe">Subscribe for notifications</label> 
+    <input type="checkbox" name="subscribe" id="subscribe" checked>
+</form>
+
+<p>hidden</p>
+
+<fieldset>
+    <form action="">
+        <input type="hidden" name="id" value="8">
+        <!-- recebe id = 8 por exemplo -->
+    </form>
+</fieldset>
+
+<p>radio</p>
+
+<fieldset>
+    <legend>Vamos tomar um café?</legend>
+
+    <label for="yep">sim</label>
+    <input type="radio" name="coffee" value="yes" id="yep">
+
+    <label for="nah">não</label>
+    <input type="radio" name="coffee" value="no" id="nah" checked>
+</fieldset>
+
+<p>textarea</p>
+
+<label for="message">Mensagem</label>
+<textarea name="message from user" id="message" cols="30" rows="10" placeholder="Insira uma mensagem aqui..." maxlength="200" minlength="1" wrap="off"></textarea>
+
+<p>select</p>
+
+<label for="carselect">Qual modelo do carro?</label>
+<select name="carmodel" id="carselect" multiple size="4">
+    <!-- multipla seleção com ctrl ou arrastando o cursor -->
+    <option value="">Selecione o modelo</option>
+    <option value="fiat">Uno</option>
+    <option value="audi">A3</option>
+    <option value="bmw">X6</option>
+</select>
+
+<p>optgroup</p>
+
+<label for="">Please choose one or more fuits:
+    <select name="fruits" id="" multiple>
+        <optgroup label="Yellow">
+            <option value="">Banana</option>
+            <option value="">Lemon</option>
+            <option value="">Mango</option>
+        </optgroup>
+    
+        <optgroup label="Red">
+            <option value="">Strawberry</option>
+            <option value="">Watermelon</option>
+            <option value="">Cherry</option>
+        </optgroup>
+    </select>
+</label>
 
 </body>
 </html>
