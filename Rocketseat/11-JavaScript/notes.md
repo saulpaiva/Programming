@@ -21,10 +21,32 @@ Conforme o ECMAScript Standard (o padrão do orgão que padroniza o JavaScript) 
 
 Para entender variáveis podemos pensar nelas como nomes simbólicos para algum valor, atalhos de código ou identificadores. Para criar uma variável, podemos usar uma das palavras reservadas: var, let e const, por exemplo: var clima = "quente", onde var é a palavra que simboliza a criação da variável, clima é o nome da variável, o sinal de igual denota que a variável está recebendo um valor e "quente" é a string que está sendo recebida. As variáveis declaradas com "var" e "let" podem ter seu valor mudado, já a const não.
 
-# Tipos dinâmicos
+## Tipos dinâmicos
 
 O JavaScript é uma linguagem fracamente tipada e dinâmica, ou seja, ao declarar uma variável não é necessário estabelecer um tipo específico e o tipo do valor da variável pode mudar conforme o código.
 
-# Scope e var
+## Scope e var
 
 O Scope ou Escopo determina a visibilidade de uma variável em um código, e para entender scope precisamos primeiramente entender block statement, que é o código presente dentro de chaves. O escopo do var é global, ou seja, uma variável declarada com var poderá ser usada em todo o código.
+
+## Nomes de variáveis
+
+- JS é case-sensitive
+- JS aceita a cadeia de caracteres Unicode
+
+- Posso:
+    - Iniciar com esses caracteres especiais: $ _
+    - Iniciar com letras
+    - Colocar acentos
+    - Letras maiúsculas e minúsculas fazem diferença
+
+- Não posso:
+    - Iniciar com números
+    - Colocar espaços vazios no nome
+
+- Ideal:
+    - Criar nomes que façam sentido
+    - Autoexplicativo quanto à função da variável e o que ela é
+    - camelCase
+    - snake_case
+    - Escrever em inglês
