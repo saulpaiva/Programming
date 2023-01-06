@@ -1,5 +1,7 @@
 // TIPOS DE DADOS
+
 // Descomente os blocos para rodar os códigos
+// Uncomment the blocks of code to run
 
 // // Strings
 
