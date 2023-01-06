@@ -50,3 +50,4 @@ O Scope ou Escopo determina a visibilidade de uma variável em um código, e par
     - camelCase
     - snake_case
     - Escrever em inglês
+
