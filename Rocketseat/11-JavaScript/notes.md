@@ -58,3 +58,7 @@ Para criarmos um objeto utilizamos as chaves envolvendo as propriedades, que sã
 ```javascript
 console.log(person.name)
 ```
+
+## Functions
+
+Funções são tipos de dados estruturais, que são declarados dessa forma: function nomeFunção() { código à cer executado } e para executar a função, usa-se: nomeFunção(). Uma função é importante para o agrupamento e reutilização de código.
