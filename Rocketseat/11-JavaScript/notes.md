@@ -51,3 +51,10 @@ O Scope ou Escopo determina a visibilidade de uma variável em um código, e par
     - snake_case
     - Escrever em inglês
 
+## Objects
+
+Para criarmos um objeto utilizamos as chaves envolvendo as propriedades, que são atribuídas com dois pontos, por exemplo: const person = { name: 'John', age: 20 }, para acessar essas propriedades usamos o ".", por exemplo: 
+
+```javascript
+console.log(person.name)
+```
