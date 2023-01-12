@@ -62,3 +62,11 @@ console.log(person.name)
 ## Functions
 
 Funções são tipos de dados estruturais, que são declarados dessa forma: function nomeFunção() { código à cer executado } e para executar a função, usa-se: nomeFunção(). Uma função é importante para o agrupamento e reutilização de código.
+
+## Argumentos e parâmetros
+
+Também é possível declarar funções dentro de variáveis, desta maneira: const variavel = function() {}. Uma parte importante de funções são os parâmetros, que são similares variáveis que funcionam para colocar dados em funções, eles são declarados junto à declaração da função e quando a função for executada, os valores dos argumentos são colocados dentro dos parênteses.
+
+## Callback function
+
+Uma callback function é uma função que está sendo passada para outra função como parâmetro.
