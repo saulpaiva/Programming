@@ -70,3 +70,69 @@ Também é possível declarar funções dentro de variáveis, desta maneira: con
 ## Callback function
 
 Uma callback function é uma função que está sendo passada para outra função como parâmetro.
+
+## Falsy e truthy
+
+O falsy é quando um valor é considerado falso em contextos que onde um booleano é obrigatório (condicionais e loops), exemplo a seguir:
+
+```javascript
+/*
+	Todos os valores abaixo seriam representados como false em um boolean.
+		false
+    0
+    -0
+    ""
+    null
+    undefined
+    NaN
+*/
+```
+
+```javascript
+console.log( NaN ? 'verdadeiro' : 'falso' )
+```
+
+já o truthy é o oposto, quando um valor é considerado verdadeiro (true) em contextos onde um booleano é obrigatório (condicionais e loops), exemplo a seguir:
+
+```javascript
+/* 
+	Todos os valores abaixo seriam representados como false em um boolean.
+		true
+    {}
+    []
+    1
+    3.23
+    "0"
+    "false"
+    -1
+    Infinity
+    -Infinity
+*/
+```
+
+```javascript
+console.log( Infinity ? 'verdadeiro' : 'falso' )
+```
+
+## Precedência dos operadores
+
+Nesta aula mostraremos a precedência dos operadores, ou seja, a ordem de importância de cada um deles.
+
+```javascript
+// De cima para baixo, do mais importante ao menos importante.
+```
+
+```javascript
+/*
+* grouping                      ( )
+* negação e incremento          ! ++ --
+* multiplicação e divisão       * /
+* adição e subtração            + -
+* relacional                    < <= > >=
+* igualdade                     == != === !==
+* AND                           && 
+* OR                            ||
+* condicional                   ?:
+* assignment (atribuição)       = += -= *= %= 
+*/
+```
