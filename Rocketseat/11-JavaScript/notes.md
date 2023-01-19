@@ -140,3 +140,7 @@ Nesta aula mostraremos a precedência dos operadores, ou seja, a ordem de import
 ## Dica: Coloração de brackets
 
 - Essa funcionalidade já está atualmente disponível no VSCode, bastando apenas ativá-la;
+
+## Dica: Autocomplete with AI
+
+- Tabnine AI Autocomplete for Javascript, Python, Typescript, PHP, Go, Java, Ruby & more;
