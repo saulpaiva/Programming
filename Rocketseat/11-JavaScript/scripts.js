@@ -12,30 +12,38 @@
 
 let family = {incomes: [1664.00,  500.00, 77.00], expenses: [299.00, 200, 89, 80, 30, 160, 350, 220]}
 
+
+// Creating a summation function
+
+function sum(array) {
+
+    let total = 0;
+    
+    for (let i of array) {
+        total += i;
+    }
+
+    return total;
+}
+
 // Summing the elements of each array and put in some variable
 
-let despesafamily = 0;
-for (let i in family.expenses) {
-    despesafamily += family.expenses[i];
-}
+let expensesFamily = sum(family.expenses)
 
-// console.log(despesafamily)
+let incomesFamily = sum(family.incomes)
 
-let receitafamily = 0;
-for (let i in family.incomes) {
-    receitafamily += family.incomes[i];
-}
+// console.log(expensesFamily)
 
-// console.log(receitafamily)
+// console.log(incomesFamily)
 
 // Verificando o saldo restante
 
-let balance = receitafamily - despesafamily;
+let balance = incomesFamily - expensesFamily;
 
 if (balance > 0) {
-    console.log('Saldo positivo de', balance)
+    console.log(`Saldo positivo de R$ ${balance.toFixed(2)}`)
 } else if (balance < 0) {
-    console.log('Saldo negativo de ', balance)
+    console.log(`Saldo negativo de R$ ${balance.toFixed(2)}`)
 } else {
-    console.log('Saldo igual à zero')
+    console.log(`Saldo igual à zero R$ ${balance.toFixed(2)}`)
 }
