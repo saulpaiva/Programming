@@ -1,33 +1,49 @@
-/***
- * Transformar notas escolares
+/*** Sistema de gastos familiar 
+ * Crie um objeto que possuirá 2 propriedades, ambas do tipo array:
  * 
- * Crie um algorítimo que transforme as notas do sistema numérico para sistema de notas em caracteres tipo A B C (conceito)
+ * receitas: [] 
+ * despesas: []
  * 
- * de 90 para cima -  A
- * entre 80 e 89   -  B
- * entre 70 e 79   -  C
- * entre 60 e 69   -  D
- * menor que 60    -  F
+ * Agora, crie uma função que irá calcular o total de receitas e despesas e irá mostrar uma mensagem se a família está com saldo positivo ou negativo, seguido do valor do saldo.
  * 
  */
 
-function conceito(nota) {
-    if (nota >= 0 && nota < 60) {
-        console.log('Nota com conceito F')
-    } else if (nota >= 60 && nota < 69) {
-        console.log('Nota com conceito D')
-    } else if (nota >= 70 && nota < 79) {
-        console.log('Nota com conceito C')
-    } else if (nota >= 80 && nota < 89) {
-        console.log('Nota com conceito B')
-    } else if (nota >= 90 && nota <= 100) {
-        console.log('Nota com conceito A')
-    } else {
-        console.log('Insira uma nota de 0 à 100')
+// Creating the object with two arrays
+
+let family = {incomes: [1664.00,  500.00, 77.00], expenses: [299.00, 200, 89, 80, 30, 160, 350, 220]}
+
+
+// Creating a summation function
+
+function sum(array) {
+
+    let total = 0;
+    
+    for (let i of array) {
+        total += i;
     }
+
+    return total;
 }
 
-conceito(100)
+// Summing the elements of each array and put in some variable
 
-console.log(nota)
+let expensesFamily = sum(family.expenses)
 
+let incomesFamily = sum(family.incomes)
+
+// console.log(expensesFamily)
+
+// console.log(incomesFamily)
+
+// Verificando o saldo restante
+
+let balance = incomesFamily - expensesFamily;
+
+if (balance > 0) {
+    console.log(`Saldo positivo de R$ ${balance.toFixed(2)}`)
+} else if (balance < 0) {
+    console.log(`Saldo negativo de R$ ${balance.toFixed(2)}`)
+} else {
+    console.log(`Saldo igual à zero R$ ${balance.toFixed(2)}`)
+}
