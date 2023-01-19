@@ -28,3 +28,6 @@ function conceito(nota) {
 }
 
 conceito(100)
+
+console.log(nota)
+

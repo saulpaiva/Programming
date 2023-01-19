@@ -136,3 +136,7 @@ Nesta aula mostraremos a precedência dos operadores, ou seja, a ordem de import
 * assignment (atribuição)       = += -= *= %= 
 */
 ```
+ 
+## Dica: Coloração de brackets
+
+- Essa funcionalidade já está atualmente disponível no VSCode, bastando apenas ativá-la;
