@@ -9,6 +9,8 @@
  * 
  */
 
+
+
 const booksByCategory = [
     {
         category: "Riqueza",
@@ -27,7 +29,7 @@ const booksByCategory = [
             },
         ],
     },
-    
+
     {
         category: "Inteligência Emocional",
         books: [
@@ -46,3 +48,20 @@ const booksByCategory = [
         ],
     },
 ];
+
+const totalCategories = booksByCategory.length
+
+for (let i of booksByCategory) {
+    console.log('Total de livros da categoria: ', i.category)
+    console.log(i.books.length)
+}
+
+// function contAuthors() {
+//     let authors = [];
+
+//     for (let i of booksByCategory) {
+//         for (let book of i.books) {
+//             if (authors.indexOf(book.author))
+//         }
+//     }
+// }
