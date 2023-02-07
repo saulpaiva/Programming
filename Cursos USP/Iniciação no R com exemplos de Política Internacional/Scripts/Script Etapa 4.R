@@ -1,4 +1,4 @@
-#Comando para buscar músicas#
+#Comando para buscar mÃºsicas#
 install.packages("chorrrds")
 library(chorrrds)
 install.packages("tidyverse")
