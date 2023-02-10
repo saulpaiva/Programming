@@ -12,3 +12,13 @@ Assim, caso isso ocorra com vocês, utilize o comando acima para instalar o paco
 Atenciosamente,
 
 Pedro Feliú. -->
+
+## Dicas úteis
+
+- In RStudio, you can clear the console using the shortcut Ctrl + L
+
+- To clear the data environment in RStudio, you can use the following code:
+
+rm(list=ls())
+
+- Permite ao R fazer gifs: https://imagemagick.org/script/download.php
