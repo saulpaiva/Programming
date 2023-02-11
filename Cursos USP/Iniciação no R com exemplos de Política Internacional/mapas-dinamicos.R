@@ -23,7 +23,7 @@ install.packages("gifski")
 
 library(dplyr)
 library(spData)
-library(spDataLarge)
+#library(spDataLarge)
 library(tmap)
 library(readxl)
 library(htmlwidgets)
@@ -37,7 +37,7 @@ library(raster)
 
 # convocar o mapa mundi
 
-data("World")
+world = map_data("world")
 
 # ordena os nomes dos países nas duas bases
 
