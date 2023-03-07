@@ -1,3 +1,5 @@
+// Interatividade de um botão, abrindo e fechando uma janela
+
 const buttonOpenModal = document.getElementById('openModal')
 
 const modalWrapper = document.querySelector('.modal-wrapper')
