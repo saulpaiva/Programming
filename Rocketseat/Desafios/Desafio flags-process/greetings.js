@@ -1,3 +1,3 @@
 const getFlagValue = require('./flags')
 
-console.log()
+console.log(`Oi ${getFlagValue('--name')}. ${getFlagValue('--greeting')}`)
