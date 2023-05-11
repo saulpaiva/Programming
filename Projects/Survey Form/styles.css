@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    width: 100vw;
+}
+
+h1, p {
+    margin: 0 auto;
+}
+
+form {
+    margin: auto;
+    min-width: 50px;
+}
