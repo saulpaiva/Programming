@@ -64,6 +64,10 @@ select {
   padding-left: 0.6em;
 }
 
+select {
+    height: 2rem;
+}
+
 .inline {
     width: unset;
     margin: 0;
