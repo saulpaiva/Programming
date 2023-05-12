@@ -4,14 +4,31 @@ body {
     margin: 0;
     color: #f5f6f7;
     font-family: 'Chivo Mono', monospace;
-    font-size: 18px;
-    background: rgba(14, 14, 117, 0.5);
+    font-size: 20px;
+    background: rgb(84, 84, 152);
 }
 
-h1, p {
+.description {
     margin: 1rem auto;
     text-align: center;
     max-width: 500px;
+    padding-bottom: 10px;
+    font-size: medium;
+}
+
+h1 {
+    margin: 1rem auto;
+    text-align: center;
+    max-width: 500px;
+    padding-top: 15px;
+}
+
+p {
+    padding-top: 15px;
+}
+
+label:last-of-type {
+    padding-top: 5vh;
 }
 
 a {
@@ -20,10 +37,10 @@ a {
 
 form {
     width: 80vw;
-    max-width: 500px;
+    max-width: 700px;
     min-width: 300px;
     margin: 0 auto;
-    padding-bottom: 2em;
+    padding-top: 15px;
     background: #1b1b32;
 }
 
@@ -34,16 +51,17 @@ fieldset {
 
 label {
     display: block;
-    margin: 0.5rem 0;
+    margin:  0;
 }
+
 
 input,
 textarea, 
 select {
-  margin: 0;
+  margin: 15px 0;
   width: 100%;
   min-height: 2em;
-  padding-left: 1em;
+  padding-left: 0.6em;
 }
 
 .inline {
